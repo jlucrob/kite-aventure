@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme static {
+  --font-sans: 'Public Sans', sans-serif;
+
+  /* Custom color palette based on logo blue (#2689c2) */
+  --color-kite-50: #f0f7fc;
+  --color-kite-100: #dbedf8;
+  --color-kite-200: #bfddf2;
+  --color-kite-300: #91c5e9;
+  --color-kite-400: #5caade;
+  --color-kite-500: #2689c2;
+  --color-kite-600: #1f6fa5;
+  --color-kite-700: #1b5a86;
+  --color-kite-800: #1b4c6f;
+  --color-kite-900: #1c405d;
+  --color-kite-950: #13293e;
+}
+
+:root {
+  --ui-header-height: 6rem;
+}

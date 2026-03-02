@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Home",
+    "team": "The Team",
+    "services": "Services",
+    "school": "School",
+    "trips": "Trips",
+    "contact": "Contact"
+  },
+  "bookNow": "Book Now",
+  "home": {
+    "seo": {
+      "title": "Kitesurfing School in Quebec City | Kite Aventure",
+      "description": "Kite Aventure is your kitesurfing school in Quebec City. Lessons for beginners and advanced riders, kite trips to top destinations. Book now!"
+    },
+    "hero": "Discover Kitesurfing in Quebec City",
+    "heroSubtitle": "Kite lessons for all levels and trips to the best destinations.",
+    "intro": "Kite Aventure is a kitesurfing school and kite travel agency based in Quebec City. We offer lessons for all levels as well as kitesurfing trips to the most sought-after destinations.",
+    "highlights": {
+      "title": "Why Choose Kite Aventure?",
+      "certified": {
+        "title": "Certified Instructors",
+        "description": "Our team is made up of certified and passionate instructors, ready to guide you through your progression."
+      },
+      "equipment": {
+        "title": "Equipment Included",
+        "description": "All equipment is provided during our lessons: kite, harness, wetsuit, and safety gear."
+      },
+      "locations": {
+        "title": "Dream Spots",
+        "description": "Enjoy the best kite spots in Quebec and travel to paradise destinations."
+      }
+    },
+    "cta": "Ready to Take Off?",
+    "ctaDescription": "Book your first lesson or your next kitesurfing trip now."
+  },
+  "team": {
+    "seo": {
+      "title": "Our Team of Certified Instructors | Kite Aventure",
+      "description": "Meet our certified kitesurfing instructors in Quebec City. A passionate team ready to help you discover kitesurfing."
+    },
+    "title": "Our Team",
+    "subtitle": "Kite enthusiasts at your service",
+    "members": [
+      {
+        "name": "Team Member 1",
+        "role": "Head Instructor",
+        "bio": "Passionate about kitesurfing for over 10 years, IKO Level 3 certified. Specializes in beginner and intermediate lessons."
+      },
+      {
+        "name": "Team Member 2",
+        "role": "Instructor",
+        "bio": "Professional kitesurfer and certified instructor. Expert in freestyle and kite trips."
+      },
+      {
+        "name": "Team Member 3",
+        "role": "Trip Guide",
+        "bio": "Organizing kitesurfing trips for 5 years. Knows the best destinations and perfect conditions."
+      }
+    ]
+  },
+  "services": {
+    "seo": {
+      "title": "Kitesurfing Services — School and Trips | Kite Aventure",
+      "description": "Discover our kitesurfing lessons in Quebec City and our kite trips to the best destinations. Services for all levels."
+    },
+    "title": "Our Services",
+    "subtitle": "Kite school and kitesurfing trips",
+    "schoolCard": {
+      "title": "Kitesurfing School",
+      "description": "Learn kitesurfing with our certified instructors. Lessons for beginners, intermediate, and advanced riders in Quebec City.",
+      "link": "Discover the school"
+    },
+    "tripsCard": {
+      "title": "Kitesurfing Trips",
+      "description": "Travel to the best kite destinations. Professional guidance and unforgettable experiences.",
+      "link": "View trips"
+    }
+  },
+  "school": {
+    "seo": {
+      "title": "Kitesurfing Lessons in Quebec City — Beginner to Advanced | Kite Aventure",
+      "description": "Learn kitesurfing with our lessons for all levels in Quebec City. Certified instructors, equipment included. Book now!"
+    },
+    "title": "Kitesurfing School",
+    "subtitle": "Kite lessons for all levels in Quebec City",
+    "intro": "Our kitesurfing school offers lessons for all levels. Whether you're a complete beginner or an advanced rider, our certified instructors will guide you through your progression.",
+    "levels": {
+      "title": "Our Lesson Levels",
+      "beginner": {
+        "title": "Beginner",
+        "description": "Kite discovery, kite piloting, body drag, and first waterstart. No experience required.",
+        "duration": "6-9 hours"
+      },
+      "intermediate": {
+        "title": "Intermediate",
+        "description": "Waterstart improvement, independent riding, first upwind tacking.",
+        "duration": "6 hours"
+      },
+      "advanced": {
+        "title": "Advanced",
+        "description": "Advanced techniques, jumps, transitions, and freestyle. For independent riders.",
+        "duration": "3 hours"
+      }
+    },
+    "included": {
+      "title": "What's Included",
+      "items": [
+        "All kitesurfing equipment",
+        "Neoprene wetsuit",
+        "Helmet and safety vest",
+        "Liability insurance",
+        "IKO progression certificate"
+      ]
+    },
+    "pricing": {
+      "title": "Pricing",
+      "note": "Contact us for current rates and group packages."
+    }
+  },
+  "trips": {
+    "seo": {
+      "title": "Kitesurfing Trips — Dream Destinations | Kite Aventure",
+      "description": "Go on a kitesurfing trip with Kite Aventure. Sunny destinations, all-inclusive, professional guidance. Book your next kite trip!"
+    },
+    "title": "Kitesurfing Trips",
+    "subtitle": "Explore the best kite destinations in the world",
+    "intro": "Kite Aventure organizes kitesurfing trips to the most sought-after destinations worldwide. Enjoy professional guidance, ideal conditions, and unforgettable experiences.",
+    "destinations": {
+      "title": "Our Destinations",
+      "items": [
+        {
+          "name": "Destination 1",
+          "description": "Consistent winds, turquoise water, and white sand beaches. The ideal destination for kitesurfing.",
+          "season": "November to April"
+        },
+        {
+          "name": "Destination 2",
+          "description": "World-renowned spot with perfect conditions for all levels.",
+          "season": "June to September"
+        }
+      ]
+    },
+    "included": {
+      "title": "What's Included",
+      "items": [
+        "Accommodation",
+        "Professional guidance",
+        "Local transportation",
+        "Access to the best spots",
+        "Complementary activities"
+      ]
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact Us | Kite Aventure — Kitesurfing School Quebec",
+      "description": "Contact Kite Aventure for your kitesurfing lessons or kite trips. Quebec City, QC. Fast response guaranteed!"
+    },
+    "title": "Contact Us",
+    "subtitle": "Have a question? Write to us!",
+    "info": {
+      "title": "Our Contact Info",
+      "address": "Quebec City, QC, Canada",
+      "phone": "+1-418-XXX-XXXX",
+      "email": "info{'@'}kiteaventure.com"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Thank you! Your message has been sent successfully.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Kite Aventure. All rights reserved.",
+    "tagline": "Kitesurfing school and kite trips in Quebec City"
+  }
+}

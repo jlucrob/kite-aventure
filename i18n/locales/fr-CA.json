@@ -1,0 +1,182 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "team": "L'équipe",
+    "services": "Services",
+    "school": "École",
+    "trips": "Voyages",
+    "contact": "Contact"
+  },
+  "bookNow": "Réserver maintenant",
+  "home": {
+    "seo": {
+      "title": "École de kitesurf à Québec | Kite Aventure",
+      "description": "Kite Aventure est votre école de kitesurf à Québec. Cours pour débutants et avancés, voyages kite vers les meilleures destinations. Réservez maintenant!"
+    },
+    "hero": "Découvrez le kitesurf à Québec",
+    "heroSubtitle": "Cours de kite pour tous les niveaux et voyages vers les meilleures destinations.",
+    "intro": "Kite Aventure est une école de kitesurf et agence de voyages kite basée à Québec. Nous offrons des cours adaptés à tous les niveaux ainsi que des voyages kitesurf vers les destinations les plus prisées.",
+    "highlights": {
+      "title": "Pourquoi choisir Kite Aventure?",
+      "certified": {
+        "title": "Instructeurs certifiés",
+        "description": "Notre équipe est composée d'instructeurs certifiés et passionnés, prêts à vous accompagner dans votre progression."
+      },
+      "equipment": {
+        "title": "Équipement inclus",
+        "description": "Tout le matériel est fourni lors de nos cours : cerf-volant, harnais, combinaison et équipement de sécurité."
+      },
+      "locations": {
+        "title": "Spots de rêve",
+        "description": "Profitez des meilleurs spots de kite au Québec et partez en voyage vers des destinations paradisiaques."
+      }
+    },
+    "cta": "Prêt à décoller?",
+    "ctaDescription": "Réservez votre premier cours ou votre prochain voyage kitesurf dès maintenant."
+  },
+  "team": {
+    "seo": {
+      "title": "Notre équipe d'instructeurs certifiés | Kite Aventure",
+      "description": "Rencontrez nos instructeurs de kitesurf certifiés à Québec. Une équipe passionnée prête à vous faire découvrir le kite."
+    },
+    "title": "Notre équipe",
+    "subtitle": "Des passionnés de kite à votre service",
+    "members": [
+      {
+        "name": "Membre de l'équipe 1",
+        "role": "Instructeur en chef",
+        "bio": "Passionné de kitesurf depuis plus de 10 ans, certifié IKO niveau 3. Spécialiste des cours débutants et intermédiaires."
+      },
+      {
+        "name": "Membre de l'équipe 2",
+        "role": "Instructrice",
+        "bio": "Kitesurfeuse professionnelle et instructrice certifiée. Experte en freestyle et en voyages kite."
+      },
+      {
+        "name": "Membre de l'équipe 3",
+        "role": "Guide de voyages",
+        "bio": "Organisateur de voyages kitesurf depuis 5 ans. Connaît les meilleures destinations et conditions parfaites."
+      }
+    ]
+  },
+  "services": {
+    "seo": {
+      "title": "Services de kitesurf — École et voyages | Kite Aventure",
+      "description": "Découvrez nos cours de kitesurf à Québec et nos voyages kite vers les meilleures destinations. Services adaptés à tous les niveaux."
+    },
+    "title": "Nos services",
+    "subtitle": "École de kite et voyages kitesurf",
+    "schoolCard": {
+      "title": "École de kitesurf",
+      "description": "Apprenez le kitesurf avec nos instructeurs certifiés. Cours pour débutants, intermédiaires et avancés à Québec.",
+      "link": "Découvrir l'école"
+    },
+    "tripsCard": {
+      "title": "Voyages kitesurf",
+      "description": "Partez en voyage kite vers les meilleures destinations. Encadrement professionnel et expériences inoubliables.",
+      "link": "Voir les voyages"
+    }
+  },
+  "school": {
+    "seo": {
+      "title": "Cours de kitesurf à Québec — Débutant à avancé | Kite Aventure",
+      "description": "Apprenez le kitesurf avec nos cours adaptés à tous les niveaux à Québec. Instructeurs certifiés, équipement fourni. Réservez maintenant!"
+    },
+    "title": "École de kitesurf",
+    "subtitle": "Cours de kite pour tous les niveaux à Québec",
+    "intro": "Notre école de kitesurf offre des cours adaptés à tous les niveaux. Que vous soyez débutant complet ou rider avancé, nos instructeurs certifiés vous guideront dans votre progression.",
+    "levels": {
+      "title": "Nos niveaux de cours",
+      "beginner": {
+        "title": "Débutant",
+        "description": "Découverte du kite, pilotage de l'aile, body drag et premiers waterstart. Aucune expérience requise.",
+        "duration": "6-9 heures"
+      },
+      "intermediate": {
+        "title": "Intermédiaire",
+        "description": "Perfectionnement du waterstart, navigation autonome, premières remontées au vent.",
+        "duration": "6 heures"
+      },
+      "advanced": {
+        "title": "Avancé",
+        "description": "Techniques avancées, sauts, transitions et freestyle. Pour riders autonomes.",
+        "duration": "3 heures"
+      }
+    },
+    "included": {
+      "title": "Ce qui est inclus",
+      "items": [
+        "Tout l'équipement de kitesurf",
+        "Combinaison néoprène",
+        "Casque et gilet de sécurité",
+        "Assurance responsabilité civile",
+        "Certificat IKO de progression"
+      ]
+    },
+    "pricing": {
+      "title": "Tarifs",
+      "note": "Contactez-nous pour les tarifs actuels et les forfaits de groupe."
+    }
+  },
+  "trips": {
+    "seo": {
+      "title": "Voyages kitesurf — Destinations de rêve | Kite Aventure",
+      "description": "Partez en voyage kitesurf avec Kite Aventure. Destinations soleil, tout inclus, encadrement professionnel. Réservez votre prochain trip kite!"
+    },
+    "title": "Voyages kitesurf",
+    "subtitle": "Explorez les meilleures destinations kite au monde",
+    "intro": "Kite Aventure organise des voyages kitesurf vers les destinations les plus prisées au monde. Profitez d'un encadrement professionnel, de conditions idéales et d'expériences inoubliables.",
+    "destinations": {
+      "title": "Nos destinations",
+      "items": [
+        {
+          "name": "Destination 1",
+          "description": "Vents constants, eau turquoise et plages de sable blanc. La destination idéale pour le kitesurf.",
+          "season": "Novembre à avril"
+        },
+        {
+          "name": "Destination 2",
+          "description": "Spot de renommée mondiale avec des conditions parfaites pour tous les niveaux.",
+          "season": "Juin à septembre"
+        }
+      ]
+    },
+    "included": {
+      "title": "Ce qui est inclus",
+      "items": [
+        "Hébergement",
+        "Encadrement professionnel",
+        "Transport sur place",
+        "Accès aux meilleurs spots",
+        "Activités complémentaires"
+      ]
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contactez-nous | Kite Aventure — École de kitesurf Québec",
+      "description": "Contactez Kite Aventure pour vos cours de kitesurf ou voyages kite. Québec, QC. Réponse rapide garantie!"
+    },
+    "title": "Nous contacter",
+    "subtitle": "Une question? Écrivez-nous!",
+    "info": {
+      "title": "Nos coordonnées",
+      "address": "Québec, QC, Canada",
+      "phone": "+1-418-XXX-XXXX",
+      "email": "info{'@'}kiteaventure.com"
+    },
+    "form": {
+      "name": "Nom complet",
+      "email": "Courriel",
+      "phone": "Téléphone",
+      "message": "Message",
+      "submit": "Envoyer",
+      "success": "Merci! Votre message a été envoyé avec succès.",
+      "error": "Une erreur est survenue. Veuillez réessayer."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Kite Aventure. Tous droits réservés.",
+    "tagline": "École de kitesurf et voyages kite à Québec"
+  }
+}
