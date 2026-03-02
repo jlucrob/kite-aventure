@@ -36,7 +36,7 @@ export default defineNuxtConfig({
 
   // Site config — used by all SEO modules
   site: {
-    url: 'https://kiteaventure.com',
+    url: 'https://kiteaventure.ca',
     name: 'Kite Aventure'
   },
 
@@ -47,10 +47,9 @@ export default defineNuxtConfig({
       { code: 'en', language: 'en-CA', name: 'English', file: 'en-CA.json' }
     ],
     defaultLocale: 'fr',
-    lazy: true,
     langDir: '../i18n/locales',
     strategy: 'prefix_except_default',
-    baseUrl: 'https://kiteaventure.com',
+    baseUrl: 'https://kiteaventure.ca',
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
@@ -65,7 +64,7 @@ export default defineNuxtConfig({
       '@type': 'SportsActivityLocation',
       'name': 'Kite Aventure',
       'description': 'École de kitesurf et agence de voyages kite à Québec',
-      'url': 'https://kiteaventure.com',
+      'url': 'https://kiteaventure.ca',
       'address': {
         streetAddress: '...',
         addressLocality: 'Québec',
