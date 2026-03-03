@@ -20,6 +20,6 @@ useHead({
     <main class="flex-1">
       <slot />
     </main>
-    <AppFooter />
+    <AppFooter class="mt-14 sm:mt-16 border-t border-default-200" />
   </div>
 </template>

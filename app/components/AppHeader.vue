@@ -1,7 +1,6 @@
 <script setup>
 const { t, locale } = useI18n()
 const localePath = useLocalePath()
-const mobileMenuOpen = ref(false)
 
 const navLinks = computed(() => [
   { label: t('nav.home'), to: localePath('/') },
@@ -19,37 +18,15 @@ const navLinks = computed(() => [
       </NuxtLink>
     </template>
 
-    <template #center>
-      <UNavigationMenu :items="navLinks.map(link => ({ label: link.label, to: link.to }))" class="hidden lg:flex" />
-    </template>
+    <UNavigationMenu :items="navLinks.map(link => ({ label: link.label, to: link.to }))" :ui="{ link: 'text-base' }" />
 
     <template #right>
       <LanguageSwitcher />
       <BookNowButton />
-      <UColorModeButton class="hidden lg:inline-flex" />
-      <UButton
-        class="lg:hidden"
-        icon="i-lucide-menu"
-        color="neutral"
-        variant="ghost"
-        aria-label="Menu"
-        @click="mobileMenuOpen = !mobileMenuOpen"
-      />
+    </template>
+
+    <template #body>
+      <UNavigationMenu :items="navLinks.map(link => ({ label: link.label, to: link.to }))" orientation="vertical" />
     </template>
   </UHeader>
-
-  <!-- Mobile navigation -->
-  <div v-if="mobileMenuOpen" class="lg:hidden border-b border-default bg-default">
-    <nav class="container mx-auto px-4 py-4 flex flex-col gap-2">
-      <NuxtLink
-        v-for="link in navLinks"
-        :key="link.to"
-        :to="link.to"
-        class="block py-2 px-3 rounded-md hover:bg-elevated text-default"
-        @click="mobileMenuOpen = false"
-      >
-        {{ link.label }}
-      </NuxtLink>
-    </nav>
-  </div>
 </template>

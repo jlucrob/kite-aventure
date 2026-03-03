@@ -22,11 +22,11 @@ useSeoMeta({
           :title="t('services.schoolCard.title')"
           :description="t('services.schoolCard.description')"
         >
-          <template #header>
+          <!-- <template #header>
             <div class="w-full h-48 bg-elevated flex items-center justify-center">
               <UIcon name="i-lucide-graduation-cap" class="text-5xl text-primary" />
             </div>
-          </template>
+          </template> -->
           <template #footer>
             <UButton
               :to="localePath('/services/school')"
@@ -44,11 +44,11 @@ useSeoMeta({
           :title="t('services.tripsCard.title')"
           :description="t('services.tripsCard.description')"
         >
-          <template #header>
+          <!-- <template #header>
             <div class="w-full h-48 bg-elevated flex items-center justify-center">
               <UIcon name="i-lucide-plane" class="text-5xl text-primary" />
             </div>
-          </template>
+          </template> -->
           <template #footer>
             <UButton
               :to="localePath('/services/trips')"
