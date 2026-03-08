@@ -14,11 +14,21 @@ const navLinks = computed(() => [
   <UFooter>
     <template #left>
       <div class="flex flex-col gap-1">
-        <p class="font-bold text-default">Kite Aventure</p>
-        <p class="text-sm text-muted">{{ t('footer.tagline') }}</p>
-        <p class="text-sm text-muted">{{ t('contact.info.address') }}</p>
-        <p class="text-sm text-muted">{{ t('contact.info.phone') }}</p>
-        <p class="text-sm text-muted">{{ t('contact.info.email') }}</p>
+        <p class="font-bold text-default">
+          Kite Aventure
+        </p>
+        <p class="text-sm text-muted">
+          {{ t('footer.tagline') }}
+        </p>
+        <p class="text-sm text-muted">
+          {{ t('contact.info.address') }}
+        </p>
+        <p class="text-sm text-muted">
+          {{ t('contact.info.phone') }}
+        </p>
+        <p class="text-sm text-muted">
+          {{ t('contact.info.email') }}
+        </p>
         <div class="flex items-center gap-2 mt-2">
           <UButton
             to="https://www.facebook.com/kiteaventureqc"

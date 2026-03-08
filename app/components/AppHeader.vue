@@ -1,5 +1,5 @@
 <script setup>
-const { t, locale } = useI18n()
+const { t } = useI18n()
 const localePath = useLocalePath()
 
 const navLinks = computed(() => [
@@ -13,12 +13,23 @@ const navLinks = computed(() => [
 <template>
   <UHeader>
     <template #left>
-      <NuxtLink :to="localePath('/')" class="flex items-center gap-2">
-        <img src="/logo.svg" alt="Kite Aventure" class="w-auto" style="height: calc(var(--ui-header-height) - 0.5rem);" />
+      <NuxtLink
+        :to="localePath('/')"
+        class="flex items-center gap-2"
+      >
+        <img
+          src="/logo.svg"
+          alt="Kite Aventure"
+          class="w-auto"
+          style="height: calc(var(--ui-header-height) - 0.5rem);"
+        >
       </NuxtLink>
     </template>
 
-    <UNavigationMenu :items="navLinks.map(link => ({ label: link.label, to: link.to }))" :ui="{ link: 'text-base' }" />
+    <UNavigationMenu
+      :items="navLinks.map(link => ({ label: link.label, to: link.to }))"
+      :ui="{ link: 'text-base' }"
+    />
 
     <template #right>
       <LanguageSwitcher />
@@ -26,7 +37,10 @@ const navLinks = computed(() => [
     </template>
 
     <template #body>
-      <UNavigationMenu :items="navLinks.map(link => ({ label: link.label, to: link.to }))" orientation="vertical" />
+      <UNavigationMenu
+        :items="navLinks.map(link => ({ label: link.label, to: link.to }))"
+        orientation="vertical"
+      />
     </template>
   </UHeader>
 </template>

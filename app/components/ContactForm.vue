@@ -9,7 +9,7 @@ const handleSubmit = async (event: Event) => {
     await fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(formData as any).toString()
+      body: new URLSearchParams(formData as unknown as Record<string, string>).toString()
     })
     formStatus.value = 'success'
     form.reset()
@@ -28,26 +28,57 @@ const handleSubmit = async (event: Event) => {
     class="flex flex-col gap-5 max-w-lg"
     @submit.prevent="handleSubmit"
   >
-    <input type="hidden" name="form-name" value="contact">
-    <input type="hidden" name="bot-field">
+    <input
+      type="hidden"
+      name="form-name"
+      value="contact"
+    >
+    <input
+      type="hidden"
+      name="bot-field"
+    >
 
     <UFormField :label="t('contact.form.name')">
-      <UInput name="name" type="text" required class="w-full" />
+      <UInput
+        name="name"
+        type="text"
+        required
+        class="w-full"
+      />
     </UFormField>
 
     <UFormField :label="t('contact.form.email')">
-      <UInput name="email" type="email" required class="w-full" />
+      <UInput
+        name="email"
+        type="email"
+        required
+        class="w-full"
+      />
     </UFormField>
 
     <UFormField :label="t('contact.form.phone')">
-      <UInput name="phone" type="tel" class="w-full" />
+      <UInput
+        name="phone"
+        type="tel"
+        class="w-full"
+      />
     </UFormField>
 
     <UFormField :label="t('contact.form.message')">
-      <UTextarea name="message" required class="w-full" :rows="5" />
+      <UTextarea
+        name="message"
+        required
+        class="w-full"
+        :rows="5"
+      />
     </UFormField>
 
-    <UButton type="submit" color="primary" size="xl" class="self-end uppercase">
+    <UButton
+      type="submit"
+      color="primary"
+      size="xl"
+      class="self-end uppercase"
+    >
       {{ t('contact.form.submit') }}
     </UButton>
 
