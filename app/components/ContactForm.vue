@@ -47,7 +47,7 @@ const handleSubmit = async (event: Event) => {
       <UTextarea name="message" required class="w-full" :rows="5" />
     </UFormField>
 
-    <UButton type="submit" color="primary" icon="i-lucide-send">
+    <UButton type="submit" color="primary" size="xl" class="self-end uppercase">
       {{ t('contact.form.submit') }}
     </UButton>
 

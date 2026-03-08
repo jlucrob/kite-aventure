@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t, tm, rt } = useI18n()
+const localePath = useLocalePath()
 
 useSeoMeta({
   title: () => t('school.seo.title'),
@@ -27,7 +28,8 @@ const includedItems = computed(() => {
       :title="t('school.title')"
       :description="t('school.subtitle')"
       :links="[
-        { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }
+        /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const } */
+        { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }
       ]"
     />
 
@@ -114,7 +116,8 @@ const includedItems = computed(() => {
         :title="t('school.pricing.title')"
         :description="t('school.pricing.note')"
         :links="[
-          { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'lg' as const }
+          /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'lg' as const } */
+          { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'lg' as const }
         ]"
       />
     </UPageSection>

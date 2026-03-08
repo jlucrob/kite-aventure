@@ -42,13 +42,35 @@ useSeoMeta({
             </div>
           </div>
 
-          <!-- Map Placeholder -->
+          <div class="flex items-center gap-4 mt-2">
+            <UButton
+              to="https://www.facebook.com/kiteaventureqc"
+              target="_blank"
+              icon="i-simple-icons-facebook"
+              color="primary"
+              variant="ghost"
+              size="xl"
+              aria-label="Facebook"
+            />
+            <UButton
+              to="https://www.instagram.com/kiteaventureqc/"
+              target="_blank"
+              icon="i-simple-icons-instagram"
+              color="primary"
+              variant="ghost"
+              size="xl"
+              aria-label="Instagram"
+            />
+          </div>
+
+          <!-- Map Placeholder
           <div class="w-full h-64 bg-elevated rounded-lg flex items-center justify-center">
             <div class="text-center text-muted">
               <UIcon name="i-lucide-map" class="text-4xl mb-2" />
               <p>Google Maps</p>
             </div>
           </div>
+          -->
         </div>
       </div>
     </UPageSection>

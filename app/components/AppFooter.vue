@@ -19,6 +19,26 @@ const navLinks = computed(() => [
         <p class="text-sm text-muted">{{ t('contact.info.address') }}</p>
         <p class="text-sm text-muted">{{ t('contact.info.phone') }}</p>
         <p class="text-sm text-muted">{{ t('contact.info.email') }}</p>
+        <div class="flex items-center gap-2 mt-2">
+          <UButton
+            to="https://www.facebook.com/kiteaventureqc"
+            target="_blank"
+            icon="i-simple-icons-facebook"
+            color="primary"
+            variant="ghost"
+            size="lg"
+            aria-label="Facebook"
+          />
+          <UButton
+            to="https://www.instagram.com/kiteaventureqc/"
+            target="_blank"
+            icon="i-simple-icons-instagram"
+            color="primary"
+            variant="ghost"
+            size="lg"
+            aria-label="Instagram"
+          />
+        </div>
       </div>
     </template>
 

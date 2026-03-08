@@ -22,7 +22,7 @@ const navLinks = computed(() => [
 
     <template #right>
       <LanguageSwitcher />
-      <BookNowButton />
+      <!-- <BookNowButton /> -->
     </template>
 
     <template #body>

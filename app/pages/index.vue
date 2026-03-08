@@ -15,7 +15,8 @@ useSeoMeta({
       :title="t('home.hero')"
       :description="t('home.heroSubtitle')"
       :links="[
-        { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const },
+        /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }, */
+        { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const },
         { label: t('nav.services'), to: localePath('/services'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const }
       ]"
     />
@@ -57,8 +58,8 @@ useSeoMeta({
         :title="t('home.cta')"
         :description="t('home.ctaDescription')"
         :links="[
-          { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'lg' as const },
-          { label: t('nav.contact'), to: localePath('/contact'), size: 'lg' as const, color: 'neutral' as const, variant: 'subtle' as const }
+          /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'lg' as const }, */
+          { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'lg' as const }
         ]"
       />
     </UPageSection>
