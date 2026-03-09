@@ -16,9 +16,9 @@ useSchemaOrg([
 ])
 
 const includedItems = computed(() => {
-  const raw = tm('school.included.items')
+  const raw = tm('school.included.items') as string[]
   if (!Array.isArray(raw)) return []
-  return raw.map(item => rt(item))
+  return raw.map((item: string) => rt(item))
 })
 </script>
 

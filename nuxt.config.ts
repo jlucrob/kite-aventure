@@ -1,5 +1,3 @@
-import { defineLocalBusiness } from 'nuxt-schema-org/schema'
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   // Modules
@@ -69,7 +67,7 @@ export default defineNuxtConfig({
 
   // Schema.org structured data — LocalBusiness for Google local results
   schemaOrg: {
-    identity: defineLocalBusiness({
+    identity: {
       '@type': 'SportsActivityLocation',
       'name': 'Kite Aventure',
       'description': 'École de kitesurf et agence de voyages kite à Québec',
@@ -92,6 +90,6 @@ export default defineNuxtConfig({
         'https://facebook.com/...',
         'https://instagram.com/...'
       ]
-    })
+    }
   }
 })

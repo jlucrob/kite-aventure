@@ -8,9 +8,9 @@ useSeoMeta({
 })
 
 const destinations = computed(() => {
-  const raw = tm('trips.destinations.items')
+  const raw = tm('trips.destinations.items') as Array<{ name: string, description: string, season: string }>
   if (!Array.isArray(raw)) return []
-  return raw.map(d => ({
+  return raw.map((d: { name: string, description: string, season: string }) => ({
     name: rt(d.name),
     description: rt(d.description),
     season: rt(d.season)
@@ -18,9 +18,9 @@ const destinations = computed(() => {
 })
 
 const includedItems = computed(() => {
-  const raw = tm('trips.included.items')
+  const raw = tm('trips.included.items') as string[]
   if (!Array.isArray(raw)) return []
-  return raw.map(item => rt(item))
+  return raw.map((item: string) => rt(item))
 })
 </script>
 

@@ -7,9 +7,9 @@ useSeoMeta({
 })
 
 const members = computed(() => {
-  const raw = tm('team.members')
+  const raw = tm('team.members') as Array<{ name: string, role: string, bio: string }>
   if (!Array.isArray(raw)) return []
-  return raw.map(m => ({
+  return raw.map((m: { name: string, role: string, bio: string }) => ({
     name: rt(m.name),
     role: rt(m.role),
     bio: rt(m.bio)
