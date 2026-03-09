@@ -2,14 +2,6 @@ import { defineLocalBusiness } from 'nuxt-schema-org/schema'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2025-01-15',
-
-  // Static site generation
-  ssr: true,
-  nitro: {
-    preset: 'static'
-  },
-
   // Modules
   modules: [
     '@nuxt/eslint',
@@ -20,11 +12,12 @@ export default defineNuxtConfig({
     '@nuxt/fonts'
   ],
 
+  // Static site generation
+  ssr: true,
+
   devtools: {
     enabled: true
   },
-
-  css: ['~/assets/css/main.css'],
 
   app: {
     head: {
@@ -34,10 +27,26 @@ export default defineNuxtConfig({
     }
   },
 
+  css: ['~/assets/css/main.css'],
+
   // Site config — used by all SEO modules
   site: {
     url: 'https://kiteaventure.ca',
     name: 'Kite Aventure'
+  },
+
+  compatibilityDate: '2025-01-15',
+  nitro: {
+    preset: 'static'
+  },
+
+  eslint: {
+    config: {
+      stylistic: {
+        commaDangle: 'never',
+        braceStyle: '1tbs'
+      }
+    }
   },
 
   // i18n config
@@ -75,8 +84,8 @@ export default defineNuxtConfig({
       'telephone': '+1-418-XXX-XXXX',
       'geo': {
         '@type': 'GeoCoordinates',
-        latitude: 46.8139,
-        longitude: -71.2080
+        'latitude': 46.8139,
+        'longitude': -71.2080
       },
       'image': '/og-default.jpg',
       'sameAs': [
@@ -84,14 +93,5 @@ export default defineNuxtConfig({
         'https://instagram.com/...'
       ]
     })
-  },
-
-  eslint: {
-    config: {
-      stylistic: {
-        commaDangle: 'never',
-        braceStyle: '1tbs'
-      }
-    }
   }
 })

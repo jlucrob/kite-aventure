@@ -51,12 +51,20 @@ const includedItems = computed(() => {
           :description="t('school.levels.beginner.description')"
         >
           <template #header>
-            <div class="w-full h-32 bg-elevated flex items-center justify-center">
-              <UIcon name="i-lucide-baby" class="text-4xl text-primary" />
+            <div
+              class="w-full h-32 bg-elevated flex items-center justify-center"
+            >
+              <UIcon
+                name="i-lucide-baby"
+                class="text-4xl text-primary"
+              />
             </div>
           </template>
           <template #footer>
-            <UBadge color="primary" variant="subtle">
+            <UBadge
+              color="primary"
+              variant="subtle"
+            >
               {{ t('school.levels.beginner.duration') }}
             </UBadge>
           </template>
@@ -68,12 +76,20 @@ const includedItems = computed(() => {
           :description="t('school.levels.intermediate.description')"
         >
           <template #header>
-            <div class="w-full h-32 bg-elevated flex items-center justify-center">
-              <UIcon name="i-lucide-trending-up" class="text-4xl text-primary" />
+            <div
+              class="w-full h-32 bg-elevated flex items-center justify-center"
+            >
+              <UIcon
+                name="i-lucide-trending-up"
+                class="text-4xl text-primary"
+              />
             </div>
           </template>
           <template #footer>
-            <UBadge color="primary" variant="subtle">
+            <UBadge
+              color="primary"
+              variant="subtle"
+            >
               {{ t('school.levels.intermediate.duration') }}
             </UBadge>
           </template>
@@ -85,12 +101,20 @@ const includedItems = computed(() => {
           :description="t('school.levels.advanced.description')"
         >
           <template #header>
-            <div class="w-full h-32 bg-elevated flex items-center justify-center">
-              <UIcon name="i-lucide-rocket" class="text-4xl text-primary" />
+            <div
+              class="w-full h-32 bg-elevated flex items-center justify-center"
+            >
+              <UIcon
+                name="i-lucide-rocket"
+                class="text-4xl text-primary"
+              />
             </div>
           </template>
           <template #footer>
-            <UBadge color="primary" variant="subtle">
+            <UBadge
+              color="primary"
+              variant="subtle"
+            >
               {{ t('school.levels.advanced.duration') }}
             </UBadge>
           </template>
@@ -102,8 +126,15 @@ const includedItems = computed(() => {
     <UPageSection :title="t('school.included.title')">
       <div class="max-w-2xl mx-auto">
         <ul class="space-y-3">
-          <li v-for="(item, index) in includedItems" :key="index" class="flex items-center gap-3">
-            <UIcon name="i-lucide-check-circle" class="text-primary shrink-0" />
+          <li
+            v-for="(item, index) in includedItems"
+            :key="index"
+            class="flex items-center gap-3"
+          >
+            <UIcon
+              name="i-lucide-check-circle"
+              class="text-primary shrink-0"
+            />
             <span>{{ item }}</span>
           </li>
         </ul>

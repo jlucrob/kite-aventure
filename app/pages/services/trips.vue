@@ -54,12 +54,21 @@ const includedItems = computed(() => {
           :description="dest.description"
         >
           <template #header>
-            <div class="w-full h-48 bg-elevated flex items-center justify-center">
-              <UIcon name="i-lucide-palmtree" class="text-5xl text-primary" />
+            <div
+              class="w-full h-48 bg-elevated flex items-center justify-center"
+            >
+              <UIcon
+                name="i-lucide-palmtree"
+                class="text-5xl text-primary"
+              />
             </div>
           </template>
           <template #footer>
-            <UBadge color="primary" variant="subtle" icon="i-lucide-calendar">
+            <UBadge
+              color="primary"
+              variant="subtle"
+              icon="i-lucide-calendar"
+            >
               {{ dest.season }}
             </UBadge>
           </template>
@@ -71,8 +80,15 @@ const includedItems = computed(() => {
     <UPageSection :title="t('trips.included.title')">
       <div class="max-w-2xl mx-auto">
         <ul class="space-y-3">
-          <li v-for="(item, index) in includedItems" :key="index" class="flex items-center gap-3">
-            <UIcon name="i-lucide-check-circle" class="text-primary shrink-0" />
+          <li
+            v-for="(item, index) in includedItems"
+            :key="index"
+            class="flex items-center gap-3"
+          >
+            <UIcon
+              name="i-lucide-check-circle"
+              class="text-primary shrink-0"
+            />
             <span>{{ item }}</span>
           </li>
         </ul>

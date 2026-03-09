@@ -33,12 +33,20 @@ const members = computed(() => {
           :description="member.bio"
         >
           <template #header>
-            <div class="w-full h-48 bg-elevated flex items-center justify-center">
-              <UIcon name="i-lucide-user" class="text-5xl text-muted" />
+            <div
+              class="w-full h-48 bg-elevated flex items-center justify-center"
+            >
+              <UIcon
+                name="i-lucide-user"
+                class="text-5xl text-muted"
+              />
             </div>
           </template>
           <template #footer>
-            <UBadge color="primary" variant="subtle">
+            <UBadge
+              color="primary"
+              variant="subtle"
+            >
               {{ member.role }}
             </UBadge>
           </template>

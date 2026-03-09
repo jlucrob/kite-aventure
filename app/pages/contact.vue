@@ -29,15 +29,24 @@ useSeoMeta({
 
           <div class="flex flex-col gap-4">
             <div class="flex items-center gap-3">
-              <UIcon name="i-lucide-map-pin" class="text-primary text-xl shrink-0" />
+              <UIcon
+                name="i-lucide-map-pin"
+                class="text-primary text-xl shrink-0"
+              />
               <span>{{ t('contact.info.address') }}</span>
             </div>
             <div class="flex items-center gap-3">
-              <UIcon name="i-lucide-phone" class="text-primary text-xl shrink-0" />
+              <UIcon
+                name="i-lucide-phone"
+                class="text-primary text-xl shrink-0"
+              />
               <span>{{ t('contact.info.phone') }}</span>
             </div>
             <div class="flex items-center gap-3">
-              <UIcon name="i-lucide-mail" class="text-primary text-xl shrink-0" />
+              <UIcon
+                name="i-lucide-mail"
+                class="text-primary text-xl shrink-0"
+              />
               <span>{{ t('contact.info.email') }}</span>
             </div>
           </div>
