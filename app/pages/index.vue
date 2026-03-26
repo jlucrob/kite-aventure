@@ -11,15 +11,28 @@ useSeoMeta({
 <template>
   <div>
     <!-- Hero Section -->
-    <UPageHero
-      :title="t('home.hero')"
-      :description="t('home.heroSubtitle')"
-      :links="[
-        /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }, */
-        { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const },
-        { label: t('nav.services'), to: localePath('/services'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const }
-      ]"
-    />
+    <div class="relative overflow-hidden">
+      <img
+        src="/images/IMG_8539_compressed.jpg"
+        alt=""
+        class="absolute inset-0 w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-black/40" />
+      <UPageHero
+        class="relative"
+        :title="t('home.hero')"
+        :description="t('home.heroSubtitle')"
+        :links="[
+          /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }, */
+          { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const },
+          { label: t('nav.services'), to: localePath('/services'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const }
+        ]"
+        :ui="{
+          title: 'text-white',
+          description: 'text-white/80'
+        }"
+      />
+    </div>
 
     <!-- Intro Section -->
     <UPageSection>

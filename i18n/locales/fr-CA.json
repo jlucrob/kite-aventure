@@ -15,17 +15,17 @@
       "description": "Kite Aventure est votre école de kitesurf à Québec. Cours pour débutants et avancés, voyages kite vers les meilleures destinations. Réservez maintenant!"
     },
     "hero": "Découvrez le kitesurf à Québec",
-    "heroSubtitle": "Cours de kite pour tous les niveaux et voyages vers les meilleures destinations.",
-    "intro": "Kite Aventure est une école de kitesurf et agence de voyages kite basée à Québec. Nous offrons des cours adaptés à tous les niveaux ainsi que des voyages kitesurf vers les destinations les plus prisées.",
+    "heroSubtitle": "Cours de kite pour tous les niveaux et voyages vers les plus belles destinations de kite.",
+    "intro": "Kite Aventure vous offre des cours pour débutants, intermédiaires et avancés, ainsi que des formules voyages / retraite kite dans des destinations à faire rêver, là où le wetsuit n'est pas obligatoire! Besoin de cours, d'un refresh ou de supervision sur l'eau? Contactez-nous.",
     "highlights": {
       "title": "Pourquoi choisir Kite Aventure?",
       "certified": {
         "title": "Instructeurs certifiés",
-        "description": "Notre équipe est composée d'instructeurs certifiés et passionnés, prêts à vous accompagner dans votre progression."
+        "description": "Notre équipe est composée d'instructeurs certifiés (IKO/FQK) et passionnés, prêts à vous accompagner dans votre progression."
       },
       "equipment": {
         "title": "Équipement inclus",
-        "description": "Tout le matériel est fourni lors de nos cours : cerf-volant, harnais, combinaison et équipement de sécurité."
+        "description": "Matériel fourni lors de nos cours : kite, harnais, équipement de sécurité, etc. Wetsuit non fourni."
       },
       "locations": {
         "title": "Spots de rêve",
@@ -33,7 +33,7 @@
       }
     },
     "cta": "Prêt à décoller?",
-    "ctaDescription": "Réservez votre premier cours ou votre prochain voyage kitesurf dès maintenant."
+    "ctaDescription": "Réservez votre premier cours ou votre prochain voyage de kitesurf dès maintenant."
   },
   "team": {
     "seo": {
