@@ -23,12 +23,12 @@ const navLinks = computed(() => [
         <p class="text-sm text-muted">
           {{ t('contact.info.address') }}
         </p>
-        <p class="text-sm text-muted">
+        <!-- <p class="text-sm text-muted">
           {{ t('contact.info.phone') }}
-        </p>
-        <p class="text-sm text-muted">
+        </p> -->
+        <!-- <p class="text-sm text-muted">
           {{ t('contact.info.email') }}
-        </p>
+        </p> -->
         <div class="flex items-center gap-2 mt-2">
           <UButton
             to="https://www.facebook.com/kiteaventureqc"
