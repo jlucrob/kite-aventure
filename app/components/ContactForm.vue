@@ -1,12 +1,13 @@
 <script setup lang="ts">
 const { t } = useI18n()
 const formStatus = ref('')
-const name = ref('')
 
 const handleSubmit = async (event: Event) => {
   try {
     const form = event.target as HTMLFormElement
     const formData = new FormData(form)
+    const submitterName = formData.get('name') as string
+    formData.set('subject', `Kite Aventure - Formulaire de contact - Par ${submitterName}`)
     await fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -32,7 +33,7 @@ const handleSubmit = async (event: Event) => {
     <input
       type="hidden"
       name="subject"
-      :value="`Kite Aventure - Formulaire de contact - Par ${name}`"
+      value=""
     />
     <input
       type="hidden"
@@ -46,7 +47,6 @@ const handleSubmit = async (event: Event) => {
 
     <UFormField :label="t('contact.form.name')">
       <UInput
-        v-model="name"
         name="name"
         type="text"
         required
