@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const { t } = useI18n()
 const formStatus = ref('')
+const name = ref('')
 
 const handleSubmit = async (event: Event) => {
   try {
@@ -30,6 +31,11 @@ const handleSubmit = async (event: Event) => {
   >
     <input
       type="hidden"
+      name="subject"
+      :value="`Kite Aventure - Formulaire de contact - Par ${name}`"
+    />
+    <input
+      type="hidden"
       name="form-name"
       value="contact"
     >
@@ -40,6 +46,7 @@ const handleSubmit = async (event: Event) => {
 
     <UFormField :label="t('contact.form.name')">
       <UInput
+        v-model="name"
         name="name"
         type="text"
         required
