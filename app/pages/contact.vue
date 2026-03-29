@@ -12,6 +12,7 @@ useSeoMeta({
     <UPageHero
       :title="t('contact.title')"
       :description="t('contact.subtitle')"
+      :ui="{ container: 'pt-8 sm:pt-10 lg:pt-12 pb-2 sm:pb-4 lg:pb-6 gap-4 sm:gap-6' }"
     />
 
     <UPageSection>

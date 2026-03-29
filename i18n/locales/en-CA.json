@@ -44,19 +44,19 @@
     "subtitle": "Kite enthusiasts at your service",
     "members": [
       {
-        "name": "Team Member 1",
-        "role": "Head Instructor",
-        "bio": "Passionate about kitesurfing for over 10 years, IKO Level 3 certified. Specializes in beginner and intermediate lessons."
+        "name": "Simon L'Allier",
+        "role": "Founder and Head Instructor.",
+        "bio": "Certified instructor. Passionate about kitesurfing for over 20 years. He is the instructor you need to progress safely. Always ready to share his passion for kitesurfing and introduce riders to new spots."
       },
       {
-        "name": "Team Member 2",
-        "role": "Instructor",
-        "bio": "Professional kitesurfer and certified instructor. Expert in freestyle and kite trips."
+        "name": "Jean-Luc Robitaille",
+        "role": "Instructor. Webmaster and social media.",
+        "bio": "Certified instructor. Big air enthusiast. Expert in warm and exotic destinations. Never wears a long wetsuit."
       },
       {
-        "name": "Team Member 3",
-        "role": "Trip Guide",
-        "bio": "Organizing kitesurfing trips for 5 years. Knows the best destinations and perfect conditions."
+        "name": "Benoit Fournier",
+        "role": "Equipment Specialist and Repairs.",
+        "bio": "Kite veteran. North Kiteboarding representative. The best kite repair technician in eastern Canada."
       }
     ]
   },

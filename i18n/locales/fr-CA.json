@@ -44,19 +44,19 @@
     "subtitle": "Des passionnés de kite à votre service",
     "members": [
       {
-        "name": "Membre de l'équipe 1",
-        "role": "Instructeur en chef",
-        "bio": "Passionné de kitesurf depuis plus de 10 ans, certifié IKO niveau 3. Spécialiste des cours débutants et intermédiaires."
+        "name": "Simon L'Allier",
+        "role": "Fondateur et instructeur en chef.",
+        "bio": "Instructeur certifié. Passionné de kitesurf depuis plus de 20 ans. Il est l'instructeur dont vous avez besoin pour progresser en toute sécurité. Toujours prêt à partager sa passion du kitesurf et à faire découvrir de nouveaux spots."
       },
       {
-        "name": "Membre de l'équipe 2",
-        "role": "Instructrice",
-        "bio": "Kitesurfeuse professionnelle et instructrice certifiée. Experte en freestyle et en voyages kite."
+        "name": "Jean-Luc Robitaille",
+        "role": "Instructeur. Webmaster et médias sociaux.",
+        "bio": "Instructeur certifié. Passionné de big air. Expert des destinations chaudes et exotiques. Ne porte jamais de wetsuit long."
       },
       {
-        "name": "Membre de l'équipe 3",
-        "role": "Guide de voyages",
-        "bio": "Organisateur de voyages kitesurf depuis 5 ans. Connaît les meilleures destinations et conditions parfaites."
+        "name": "Benoit Fournier",
+        "role": "Spécialiste de l'équipement et réparations.",
+        "bio": "Vétéran du kitesurf. Représentant North Kiteboarding. Le meilleur réparateur de kite dans l'est du Canada."
       }
     ]
   },
