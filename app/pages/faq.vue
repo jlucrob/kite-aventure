@@ -34,19 +34,7 @@ const faqItems = computed(() => {
             trigger: 'py-5 text-base font-semibold hover:text-primary transition-colors cursor-pointer w-full text-left',
             content: 'pb-5 text-muted leading-relaxed'
           }"
-        >
-          <template #item="{ item }">
-            <div class="flex items-start gap-3 pb-5">
-              <UIcon
-                name="i-lucide-circle-check"
-                class="text-primary shrink-0 mt-0.5 text-lg"
-              />
-              <p class="text-muted leading-relaxed whitespace-pre-line">
-                {{ item.content }}
-              </p>
-            </div>
-          </template>
-        </UAccordion>
+        />
       </div>
     </UPageSection>
 
