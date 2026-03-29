@@ -5,6 +5,7 @@
     "services": "Services",
     "school": "School",
     "trips": "Trips",
+    "faq": "FAQ",
     "contact": "Contact"
   },
   "bookNow": "Book Now",
@@ -80,43 +81,43 @@
   },
   "school": {
     "seo": {
-      "title": "Kitesurfing Lessons in Quebec City — Beginner to Advanced | Kite Aventure",
-      "description": "Learn kitesurfing with our lessons for all levels in Quebec City. Certified instructors, equipment included. Book now!"
+      "title": "Kitesurfing Lessons in Quebec City — 2026 Pricing | Kite Aventure",
+      "description": "Kitesurfing lessons in Quebec City with Kite Aventure. 3h, 6h and 9h packages, private or shared. Certified instructors, equipment provided. Book your spot!"
     },
     "title": "Kitesurfing School",
-    "subtitle": "Kite lessons for all levels in Quebec City",
-    "intro": "Our kitesurfing school offers lessons for all levels. Whether you're a complete beginner or an advanced rider, our certified instructors will guide you through your progression.",
-    "levels": {
-      "title": "Our Lesson Levels",
-      "beginner": {
-        "title": "Beginner",
-        "description": "Kite discovery, kite piloting, body drag, and first waterstart. No experience required.",
-        "duration": "6-9 hours"
-      },
-      "intermediate": {
-        "title": "Intermediate",
-        "description": "Waterstart improvement, independent riding, first upwind tacking.",
-        "duration": "6 hours"
-      },
-      "advanced": {
-        "title": "Advanced",
-        "description": "Advanced techniques, jumps, transitions, and freestyle. For independent riders.",
-        "duration": "3 hours"
-      }
+    "subtitle": "Kitesurfing lessons in the Quebec City region and L'Isle-aux-Coudres",
+    "pricing": {
+      "title": "2026 Pricing",
+      "intro": "To take kitesurfing lessons with Kite Aventure, packages of 3h, 6h and 9h are available (private or shared). Your registration payment puts you on Kite Aventure's selective student list, and lets you book a lesson time slot online when the wind looks favourable.",
+      "private": "Private lesson",
+      "double": "Shared lesson",
+      "additionalHour": "Additional hour",
+      "doubleNote": "*A shared lesson includes 1 kite for 2 students.",
+      "capacityNote": "We will only take about a dozen students this summer — hurry up and reserve your spot!!"
     },
-    "included": {
-      "title": "What's Included",
+    "conditions": {
+      "title": "Before registering, make sure you meet the following requirements:",
       "items": [
-        "All kitesurfing equipment",
-        "Neoprene wetsuit",
-        "Helmet and safety vest",
-        "Liability insurance",
-        "IKO progression certificate"
+        "Be 12 years of age or older",
+        "Know how to swim and be in adequate physical shape",
+        "Own your wetsuit (4:3 mm thickness recommended, 3:2 mm may work for those who don't get cold easily) and neoprene water shoes (no thick sole, or very thin and flexible sole — you need to feel the board under your feet)",
+        "Be able to travel to the practice locations (Quebec City region and L'Isle-aux-Coudres)",
+        "Know that you risk entering an obsessive cycle of pleasure and passion (read: checking wind forecasts 5 times a day, only talking about kite with your friends, missing family dinners because it's windy, being surrounded by fellow addicts who have the same problem as you, etc.)"
       ]
     },
-    "pricing": {
-      "title": "Pricing",
-      "note": "Contact us for current rates and group packages."
+    "included": {
+      "note": "We take care of the rest (helmet, PFD (personal flotation device), bar + lines, harness, kite, etc.)"
+    },
+    "register": {
+      "title": "How to Register?",
+      "step1": {
+        "label": "Fill out the registration form"
+      },
+      "step2": {
+        "label": "Sign the Waiver"
+      },
+      "step3": "Send an Interac transfer to: info{'@'}kiteaventure.ca",
+      "step4": "For more information, message us privately with your phone number so we can chat!"
     }
   },
   "trips": {
@@ -131,14 +132,14 @@
       "title": "Our Destinations",
       "items": [
         {
-          "name": "Destination 1",
-          "description": "Consistent winds, turquoise water, and white sand beaches. The ideal destination for kitesurfing.",
-          "season": "November to April"
+          "name": "",
+          "description": "Stay tuned, more information coming soon.",
+          "season": ""
         },
         {
-          "name": "Destination 2",
-          "description": "World-renowned spot with perfect conditions for all levels.",
-          "season": "June to September"
+          "name": "",
+          "description": "Stay tuned, more information coming soon.",
+          "season": ""
         }
       ]
     },
@@ -174,6 +175,24 @@
       "submit": "Send",
       "success": "Thank you! Your message has been sent successfully.",
       "error": "An error occurred. Please try again."
+    }
+  },
+  "faq": {
+    "seo": {
+      "title": "Frequently Asked Questions | Kite Aventure",
+      "description": "Answers to the most common questions about kitesurfing lessons and trips with Kite Aventure in Quebec City."
+    },
+    "title": "FAQ",
+    "subtitle": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What happens if weather conditions are not suitable for my lesson? (no wind, too much wind, bad weather)",
+        "answer": "The safety of our students is our top priority — we never go out on the water in unsafe conditions.\n\nIf your lesson must be cancelled due to unfavourable weather conditions (insufficient wind, wind that is too strong or gusty, thunderstorms, etc.), we will rebook your lesson as soon as possible. You keep your spot at the very top of our priority list — you will be among the first to be contacted when conditions are ideal.\n\nIf we are unable to reschedule and provide your lesson, we will refund the full amount paid."
+      }
+    ],
+    "cta": {
+      "title": "Still Have Questions?",
+      "description": "Don't hesitate to reach out — we're happy to help."
     }
   },
   "footer": {

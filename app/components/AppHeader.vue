@@ -5,7 +5,9 @@ const localePath = useLocalePath()
 const navLinks = computed(() => [
   { label: t('nav.home'), to: localePath('/') },
   { label: t('nav.team'), to: localePath('/team') },
-  { label: t('nav.services'), to: localePath('/services') },
+  { label: t('nav.school'), to: localePath('/school') },
+  { label: t('nav.trips'), to: localePath('/trips') },
+  { label: t('nav.faq'), to: localePath('/faq') },
   { label: t('nav.contact'), to: localePath('/contact') }
 ])
 </script>

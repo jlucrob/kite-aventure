@@ -17,11 +17,11 @@ const destinations = computed(() => {
   }))
 })
 
-const includedItems = computed(() => {
-  const raw = tm('trips.included.items') as string[]
-  if (!Array.isArray(raw)) return []
-  return raw.map((item: string) => rt(item))
-})
+// const includedItems = computed(() => {
+//   const raw = tm('trips.included.items') as string[]
+//   if (!Array.isArray(raw)) return []
+//   return raw.map((item: string) => rt(item))
+// })
 </script>
 
 <template>
@@ -31,8 +31,9 @@ const includedItems = computed(() => {
       :description="t('trips.subtitle')"
       :links="[
         /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const } */
-        { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }
+        // { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }
       ]"
+      :ui="{ container: 'pt-8 sm:pt-10 lg:pt-12 pb-2 sm:pb-4 lg:pb-6 gap-4 sm:gap-6' }"
     />
 
     <!-- Intro -->
@@ -50,7 +51,7 @@ const includedItems = computed(() => {
         <UPageCard
           v-for="(dest, index) in destinations"
           :key="index"
-          :title="dest.name"
+          :title="dest.name || undefined"
           :description="dest.description"
         >
           <template #header>
@@ -63,7 +64,10 @@ const includedItems = computed(() => {
               />
             </div>
           </template>
-          <template #footer>
+          <template
+            v-if="dest.season"
+            #footer
+          >
             <UBadge
               color="primary"
               variant="subtle"
@@ -77,7 +81,7 @@ const includedItems = computed(() => {
     </UPageSection>
 
     <!-- What's Included -->
-    <UPageSection :title="t('trips.included.title')">
+    <!-- <UPageSection :title="t('trips.included.title')">
       <div class="max-w-2xl mx-auto">
         <ul class="space-y-3">
           <li
@@ -93,10 +97,10 @@ const includedItems = computed(() => {
           </li>
         </ul>
       </div>
-    </UPageSection>
+    </UPageSection> -->
 
     <!-- CTA -->
-    <UPageSection>
+    <!-- <UPageSection>
       <UPageCTA
         :title="t('home.cta')"
         :description="t('home.ctaDescription')"
@@ -105,6 +109,6 @@ const includedItems = computed(() => {
           { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'lg' as const }
         ]"
       />
-    </UPageSection>
+    </UPageSection> -->
   </div>
 </template>

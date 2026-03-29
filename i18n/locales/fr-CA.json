@@ -5,6 +5,7 @@
     "services": "Services",
     "school": "École",
     "trips": "Voyages",
+    "faq": "FAQ",
     "contact": "Contact"
   },
   "bookNow": "Réserver maintenant",
@@ -80,43 +81,43 @@
   },
   "school": {
     "seo": {
-      "title": "Cours de kitesurf à Québec — Débutant à avancé | Kite Aventure",
-      "description": "Apprenez le kitesurf avec nos cours adaptés à tous les niveaux à Québec. Instructeurs certifiés, équipement fourni. Réservez maintenant!"
+      "title": "Cours de kitesurf à Québec — Tarifs 2026 | Kite Aventure",
+      "description": "Cours de kitesurf à Québec avec Kite Aventure. Forfaits 3h, 6h et 9h en privé ou en double. Instructeurs certifiés, équipement fourni. Réservez votre place!"
     },
     "title": "École de kitesurf",
-    "subtitle": "Cours de kite pour tous les niveaux à Québec",
-    "intro": "Notre école de kitesurf offre des cours adaptés à tous les niveaux. Que vous soyez débutant complet ou rider avancé, nos instructeurs certifiés vous guideront dans votre progression.",
-    "levels": {
-      "title": "Nos niveaux de cours",
-      "beginner": {
-        "title": "Débutant",
-        "description": "Découverte du kite, pilotage de l'aile, body drag et premiers waterstart. Aucune expérience requise.",
-        "duration": "6-9 heures"
-      },
-      "intermediate": {
-        "title": "Intermédiaire",
-        "description": "Perfectionnement du waterstart, navigation autonome, premières remontées au vent.",
-        "duration": "6 heures"
-      },
-      "advanced": {
-        "title": "Avancé",
-        "description": "Techniques avancées, sauts, transitions et freestyle. Pour riders autonomes.",
-        "duration": "3 heures"
-      }
+    "subtitle": "Cours de kitesurf dans la région de Québec et à l'Isle-aux-Coudres",
+    "pricing": {
+      "title": "Tarification 2026",
+      "intro": "Pour suivre des cours de kitesurf avec Kite Aventure, des forfaits de 3h, 6h et 9h sont disponibles (en privé ou en double). Le paiement d'inscription vous fait entrer sur la liste sélective des élèves de Kite Aventure, et vous permet de réserver une plage horaire de cours en ligne, lorsque le vent s'annonce favorable.",
+      "private": "Cours particulier",
+      "double": "Cours en double",
+      "additionalHour": "Heure additionnelle",
+      "doubleNote": "*Un cours en double inclut 1 kite pour 2 élèves.",
+      "capacityNote": "Nous ne prendrons qu'une douzaine d'élèves cet été, dépêchez-vous de réserver votre place !!"
     },
-    "included": {
-      "title": "Ce qui est inclus",
+    "conditions": {
+      "title": "Avant de vous inscrire, assurez-vous de respecter les conditions suivantes :",
       "items": [
-        "Tout l'équipement de kitesurf",
-        "Combinaison néoprène",
-        "Casque et gilet de sécurité",
-        "Assurance responsabilité civile",
-        "Certificat IKO de progression"
+        "Être âgé de 12 ans ou plus",
+        "Savoir nager et être en forme physique adéquate",
+        "Posséder votre wetsuit (épaisseur 4:3 mm recommandée, 3:2 mm peut faire pour les moins frileux) et vos « souliers d'eau » en néoprène (pas de semelle sous la chaussure, ou semelle très mince et souple - il faut pouvoir sentir la planche sous les pieds",
+        "Être en mesure de vous déplacer sur les lieux de pratique (région de Québec et L'Isle-aux-Coudres)",
+        "Savoir que vous risquez d'entrer dans un cycle obsessionnel de plaisir et de passion (lire ici : regarder les prévisions de vent 5 fois par jour, ne parler que de kite avec vos amis, manquer des diners de famille parce qu'il vente, être entourés de passionné(e)s épris du même mal que vous, etc.)"
       ]
     },
-    "pricing": {
-      "title": "Tarifs",
-      "note": "Contactez-nous pour les tarifs actuels et les forfaits de groupe."
+    "included": {
+      "note": "On s'occupe du reste (casque, veste de flottaison, harnais, barre + lignes, kite, etc.)"
+    },
+    "register": {
+      "title": "Comment s'inscrire ?",
+      "step1": {
+        "label": "Remplir le formulaire d'inscription"
+      },
+      "step2": {
+        "label": "Signer le Waiver"
+      },
+      "step3": "Faire un paiement Interac à l'adresse courriel : info{'@'}kiteaventure.ca",
+      "step4": "Pour plus d'information, nous écrire en privé en laissant votre numéro de téléphone pour qu'on discute !"
     }
   },
   "trips": {
@@ -131,14 +132,14 @@
       "title": "Nos destinations",
       "items": [
         {
-          "name": "Destination 1",
-          "description": "Vents constants, eau turquoise et plages de sable blanc. La destination idéale pour le kitesurf.",
-          "season": "Novembre à avril"
+          "name": "",
+          "description": "Restez à l'affût, plus d'informations à venir bientôt.",
+          "season": ""
         },
         {
-          "name": "Destination 2",
-          "description": "Spot de renommée mondiale avec des conditions parfaites pour tous les niveaux.",
-          "season": "Juin à septembre"
+          "name": "",
+          "description": "Restez à l'affût, plus d'informations à venir bientôt.",
+          "season": ""
         }
       ]
     },
@@ -174,6 +175,24 @@
       "submit": "Envoyer",
       "success": "Merci! Votre message a été envoyé avec succès.",
       "error": "Une erreur est survenue. Veuillez réessayer."
+    }
+  },
+  "faq": {
+    "seo": {
+      "title": "Foire aux questions | Kite Aventure",
+      "description": "Réponses aux questions les plus fréquentes sur les cours de kitesurf et les voyages avec Kite Aventure à Québec."
+    },
+    "title": "FAQ",
+    "subtitle": "Foire aux questions",
+    "items": [
+      {
+        "question": "Que se passe-t-il si les conditions météo ne sont pas propices à mon cours? (pas de vent, trop de vent, mauvais temps)",
+        "answer": "La sécurité de nos élèves est notre priorité absolue — nous ne sortons jamais sur l'eau dans des conditions dangereuses.\n\nSi votre cours doit être annulé en raison de conditions météo défavorables (vent insuffisant, vent trop fort ou rafales, orage, etc.), nous ferons le nécessaire pour replanifier votre cours dans les meilleurs délais. Vous conservez votre place en tête de notre liste de priorité — vous serez parmi les premiers contactés dès que les conditions seront idéales.\n\nSi nous ne sommes pas en mesure de vous donner votre cours, nous vous remboursons la totalité du montant payé."
+      }
+    ],
+    "cta": {
+      "title": "Vous avez d'autres questions?",
+      "description": "N'hésitez pas à nous écrire — il nous fera plaisir de vous répondre."
     }
   },
   "footer": {

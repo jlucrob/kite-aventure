@@ -25,7 +25,8 @@ useSeoMeta({
         :links="[
           /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }, */
           { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const },
-          { label: t('nav.services'), to: localePath('/services'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const }
+          { label: t('nav.school'), to: localePath('/school'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const },
+          { label: t('nav.trips'), to: localePath('/trips'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const }
         ]"
         :ui="{
           title: 'text-white',
