@@ -1,6 +1,5 @@
 <script setup lang="ts">
 const { t, tm, rt } = useI18n()
-const localePath = useLocalePath()
 
 useSeoMeta({
   title: () => t('trips.seo.title'),

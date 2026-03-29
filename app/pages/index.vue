@@ -16,7 +16,7 @@ useSeoMeta({
         src="/images/IMG_8539_compressed.jpg"
         alt=""
         class="absolute inset-0 w-full h-full object-cover"
-      />
+      >
       <div class="absolute inset-0 bg-black/40" />
       <UPageHero
         class="relative"

@@ -41,7 +41,10 @@ const members = computed(() => {
           :ui="{ header: 'mb-2' }"
         >
           <template #header>
-            <div class="w-full overflow-hidden" style="aspect-ratio: 4/3">
+            <div
+              class="w-full overflow-hidden"
+              style="aspect-ratio: 4/3"
+            >
               <img
                 :src="member.image"
                 :alt="member.name"

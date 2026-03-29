@@ -33,7 +33,6 @@ const conditionItems = computed(() => {
     <!-- Pricing Section -->
     <UPageSection :title="t('school.pricing.title')">
       <div class="max-w-3xl mx-auto space-y-8">
-
         <!-- Intro paragraph -->
         <p class="text-lg text-muted">
           {{ t('school.pricing.intro') }}

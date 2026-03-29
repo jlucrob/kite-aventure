@@ -34,7 +34,7 @@ const handleSubmit = async (event: Event) => {
       type="hidden"
       name="subject"
       value=""
-    />
+    >
     <input
       type="hidden"
       name="form-name"
