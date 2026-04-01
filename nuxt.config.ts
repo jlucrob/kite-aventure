@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxtjs/seo',
     '@nuxt/image',
-    '@nuxt/fonts'
+    '@nuxt/fonts',
+    'nuxt-gtag'
   ],
 
   // Static site generation
@@ -31,6 +32,10 @@ export default defineNuxtConfig({
   site: {
     url: 'https://kiteaventure.ca',
     name: 'Kite Aventure'
+  },
+
+  gtag: {
+    id: process.env.GTAG_ID
   },
 
   compatibilityDate: '2025-01-15',

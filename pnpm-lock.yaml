@@ -42,6 +42,9 @@ importers:
       eslint:
         specifier: ^10.0.0
         version: 10.0.0(jiti@2.6.1)
+      nuxt-gtag:
+        specifier: ^4.1.0
+        version: 4.1.0(magicast@0.5.2)
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -4629,6 +4632,9 @@ packages:
 
   nuxt-define@1.0.0:
     resolution: {integrity: sha512-CYZ2WjU+KCyCDVzjYUM4eEpMF0rkPmkpiFrybTqqQCRpUbPt2h3snswWIpFPXTi+osRCY6Og0W/XLAQgDL4FfQ==}
+
+  nuxt-gtag@4.1.0:
+    resolution: {integrity: sha512-2TL7RUA8N8NYGbY4UZ9IqKyMZMgO9cCGu6yqadUU8RF+Y81PXI+k+1giIA11XXStaJoGXaXeNsBUIJXn1tUy3A==}
 
   nuxt-link-checker@4.3.9:
     resolution: {integrity: sha512-iYJU+A/xUhk62v4tol9cdjJS1+ZOSl0+tdUObgifdeSts6IqAUByUAiX4H6yOY2tdQYKjahMFbQr1GJ+/4LYnQ==}
@@ -10885,6 +10891,15 @@ snapshots:
       boolbase: 1.0.0
 
   nuxt-define@1.0.0: {}
+
+  nuxt-gtag@4.1.0(magicast@0.5.2):
+    dependencies:
+      '@nuxt/kit': 4.3.1(magicast@0.5.2)
+      defu: 6.1.4
+      pathe: 2.0.3
+      ufo: 1.6.3
+    transitivePeerDependencies:
+      - magicast
 
   nuxt-link-checker@4.3.9(db0@0.3.4)(ioredis@5.9.3)(magicast@0.5.2)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1)(lightningcss@1.31.1)(terser@5.46.0)(yaml@2.8.2))(vue@3.5.28(typescript@5.9.3)):
     dependencies:
