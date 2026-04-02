@@ -37,10 +37,6 @@ export default defineNuxtConfig({
     name: 'Kite Aventure'
   },
 
-  gtag: {
-    id: process.env.GTAG_ID
-  },
-
   compatibilityDate: '2025-01-15',
   nitro: {
     preset: 'static'
@@ -53,6 +49,10 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
+  },
+
+  gtag: {
+    id: process.env.GTAG_ID
   },
 
   // i18n config
