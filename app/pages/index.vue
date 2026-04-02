@@ -15,9 +15,9 @@ useSeoMeta({
       <img
         src="/images/IMG_8539_compressed.jpg"
         alt=""
-        class="absolute inset-0 w-full h-full object-cover"
+        class="absolute inset-0 w-full h-full object-cover object-[center_45%]"
       >
-      <div class="absolute inset-0 bg-black/40" />
+      <div class="absolute inset-0 bg-white/30" />
       <UPageHero
         class="relative"
         :title="t('home.hero')"
@@ -25,12 +25,12 @@ useSeoMeta({
         :links="[
           /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }, */
           { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const },
-          { label: t('nav.school'), to: localePath('/school'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const },
-          { label: t('nav.trips'), to: localePath('/trips'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const }
+          // { label: t('nav.school'), to: localePath('/school'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const },
+          // { label: t('nav.trips'), to: localePath('/trips'), size: 'xl' as const, color: 'neutral' as const, variant: 'subtle' as const }
         ]"
         :ui="{
-          title: 'text-white',
-          description: 'text-white/80'
+          title: 'text-gray-900',
+          description: 'text-gray-900'
         }"
       />
     </div>

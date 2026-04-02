@@ -34,7 +34,7 @@ const conditionItems = computed(() => {
     <UPageSection :title="t('school.pricing.title')">
       <div class="max-w-3xl mx-auto space-y-8">
         <!-- Intro paragraph -->
-        <p class="text-lg text-muted">
+        <p class="text-lg text-muted text-justify">
           {{ t('school.pricing.intro') }}
         </p>
 
@@ -53,7 +53,7 @@ const conditionItems = computed(() => {
                 name="i-lucide-check-circle"
                 class="text-primary shrink-0 mt-0.5"
               />
-              <span class="text-muted">{{ item }}</span>
+              <span class="text-muted text-justify">{{ item }}</span>
             </li>
           </ul>
         </div>
