@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // Static site generation
-  ssr: true,
-
   // Modules
   modules: [
     '@nuxt/eslint',
@@ -13,6 +10,9 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     'nuxt-gtag'
   ],
+
+  // Static site generation
+  ssr: true,
 
   devtools: {
     enabled: true
