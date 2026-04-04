@@ -160,13 +160,14 @@
       "description": "Contactez Kite Aventure pour vos cours de kitesurf ou voyages kite. Québec, QC. Réponse rapide garantie!"
     },
     "title": "Nous contacter",
-    "subtitle": "Une question? Écrivez-nous!",
+    "subtitle": "Une question? Consultez notre {faqLink} ou écrivez-nous!",
     "info": {
       "title": "Nos coordonnées",
       "address": "Québec, QC, Canada",
       "phone": "+1-418-XXX-XXXX",
       "email": "info{'@'}kiteaventure.com"
     },
+    "faqLinkText": "FAQ",
     "form": {
       "name": "Nom complet",
       "email": "Courriel",

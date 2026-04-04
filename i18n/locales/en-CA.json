@@ -160,13 +160,14 @@
       "description": "Contact Kite Aventure for your kitesurfing lessons or kite trips. Quebec City, QC. Fast response guaranteed!"
     },
     "title": "Contact Us",
-    "subtitle": "Have a question? Write to us!",
+    "subtitle": "Have a question? Check our {faqLink} or write to us!",
     "info": {
       "title": "Our Contact Info",
       "address": "Quebec City, QC, Canada",
       "phone": "+1-418-XXX-XXXX",
       "email": "info{'@'}kiteaventure.com"
     },
+    "faqLinkText": "FAQ",
     "form": {
       "name": "Full Name",
       "email": "Email",

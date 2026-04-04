@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const localePath = useLocalePath()
 
 useSeoMeta({
   title: () => t('contact.seo.title'),
@@ -11,9 +12,24 @@ useSeoMeta({
   <div>
     <UPageHero
       :title="t('contact.title')"
-      :description="t('contact.subtitle')"
       :ui="{ container: 'pt-8 sm:pt-10 lg:pt-12 pb-2 sm:pb-4 lg:pb-6 gap-4 sm:gap-6' }"
-    />
+    >
+      <template #description>
+        <i18n-t
+          keypath="contact.subtitle"
+          tag="span"
+        >
+          <template #faqLink>
+            <NuxtLink
+              :to="localePath('/faq')"
+              class="text-primary font-medium hover:underline"
+            >
+              {{ t('contact.faqLinkText') }}
+            </NuxtLink>
+          </template>
+        </i18n-t>
+      </template>
+    </UPageHero>
 
     <UPageSection>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
