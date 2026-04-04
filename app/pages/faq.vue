@@ -32,7 +32,7 @@ const faqItems = computed(() => {
           :ui="{
             item: 'border-b border-(--ui-border) last:border-b-0',
             trigger: 'py-5 text-base font-semibold hover:text-primary transition-colors cursor-pointer w-full text-left',
-            content: 'pb-5 text-muted leading-relaxed'
+            content: 'pb-5 text-muted leading-relaxed whitespace-pre-line'
           }"
         />
       </div>

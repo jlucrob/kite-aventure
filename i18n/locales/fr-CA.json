@@ -188,6 +188,10 @@
       {
         "question": "Que se passe-t-il si les conditions météo ne sont pas propices à mon cours? (pas de vent, trop de vent, mauvais temps)",
         "answer": "La sécurité de nos élèves est notre priorité absolue — nous ne sortons jamais sur l'eau dans des conditions dangereuses.\n\nSi votre cours doit être annulé en raison de conditions météo défavorables (vent insuffisant, vent trop fort ou rafales, orage, etc.), nous ferons le nécessaire pour replanifier votre cours dans les meilleurs délais. Vous conservez votre place en tête de notre liste de priorité — vous serez parmi les premiers contactés dès que les conditions seront idéales.\n\nSi nous ne sommes pas en mesure de vous donner votre cours, nous vous remboursons la totalité du montant payé."
+      },
+      {
+        "question": "Emplacements des cours de kitesurf",
+        "answer": "Les cours de kite auront lieu à 3 différents emplacements dépendamment de la direction du vent, la force du vent et la marée.\n\nVent sud-ouest :\n\nL'Isle-aux-Coudres (Halte des Piliers)\nLien Google Maps : https://maps.app.goo.gl/VeQaLERMpbs16FpV7\nCoordonnées GPS : 47.36919065132224, -70.39422262256325\n\nNote : il y a un traversier à prendre pour se rendre sur l'Isle-aux-Coudres. L'attente du traversier varie normalement entre 15 et 45 minutes, dépendamment du trafic. Le traversier est gratuit et prend environ 30 minutes.\n\nVoici l'emplacement du traversier :\nLien Google Maps : https://maps.app.goo.gl/WnKniFMeY5MvoTuh8\nCoordonnées GPS : 47.44950045662119, -70.36565254662186\n\nVent nord-est :\n\nOption 1 : Baie de Beauport\nLien Google Maps : https://maps.app.goo.gl/YAVXF8Hik33aXm3Y8\nCoordonnées GPS : 46.83597615923758, -71.20287543057084\n\nOption 2 : Berthier-sur-Mer (Plage de Berthier-sur-Mer)\nLien Google Maps : https://maps.app.goo.gl/U3x7roX61Kx41ano6\nCoordonnées GPS : 46.93440319278342, -70.71650790220106"
       }
     ],
     "cta": {
