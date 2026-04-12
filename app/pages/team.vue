@@ -3,7 +3,11 @@ const { t, tm, rt } = useI18n()
 
 useSeoMeta({
   title: () => t('team.seo.title'),
-  description: () => t('team.seo.description')
+  description: () => t('team.seo.description'),
+  ogTitle: () => t('team.seo.title'),
+  ogDescription: () => t('team.seo.description'),
+  ogImage: '/images/IMG_8539_compressed.jpg',
+  ogType: 'website'
 })
 
 const memberImages = [

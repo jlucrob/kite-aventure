@@ -4,7 +4,11 @@ const localePath = useLocalePath()
 
 useSeoMeta({
   title: () => t('home.seo.title'),
-  description: () => t('home.seo.description')
+  description: () => t('home.seo.description'),
+  ogTitle: () => t('home.seo.title'),
+  ogDescription: () => t('home.seo.description'),
+  ogImage: '/images/IMG_8539_compressed.jpg',
+  ogType: 'website'
 })
 </script>
 
@@ -14,7 +18,7 @@ useSeoMeta({
     <div class="relative overflow-hidden">
       <img
         src="/images/IMG_8539_compressed.jpg"
-        alt=""
+        alt="Kitesurf à Québec — cours de kite avec Kite Aventure"
         class="absolute inset-0 w-full h-full object-cover object-[center_45%]"
       >
       <div class="absolute inset-0 bg-white/30" />

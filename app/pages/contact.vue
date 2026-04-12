@@ -4,7 +4,11 @@ const localePath = useLocalePath()
 
 useSeoMeta({
   title: () => t('contact.seo.title'),
-  description: () => t('contact.seo.description')
+  description: () => t('contact.seo.description'),
+  ogTitle: () => t('contact.seo.title'),
+  ogDescription: () => t('contact.seo.description'),
+  ogImage: '/images/IMG_8539_compressed.jpg',
+  ogType: 'website'
 })
 </script>
 

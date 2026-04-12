@@ -4,7 +4,11 @@ const localePath = useLocalePath()
 
 useSeoMeta({
   title: () => t('school.seo.title'),
-  description: () => t('school.seo.description')
+  description: () => t('school.seo.description'),
+  ogTitle: () => t('school.seo.title'),
+  ogDescription: () => t('school.seo.description'),
+  ogImage: '/images/IMG_8539_compressed.jpg',
+  ogType: 'website'
 })
 
 useSchemaOrg([

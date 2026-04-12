@@ -34,7 +34,9 @@ export default defineNuxtConfig({
   // Site config — used by all SEO modules
   site: {
     url: 'https://kiteaventure.ca',
-    name: 'Kite Aventure'
+    name: 'Kite Aventure',
+    description: 'École de kitesurf à Québec et Charlevoix. Cours pour débutants et avancés, voyages kite.',
+    defaultLocale: 'fr'
   },
 
   compatibilityDate: '2025-01-15',
@@ -80,23 +82,19 @@ export default defineNuxtConfig({
       'name': 'Kite Aventure',
       'description': 'École de kitesurf et agence de voyages kite à Québec',
       'url': 'https://kiteaventure.ca',
-      'address': {
-        streetAddress: '...',
-        addressLocality: 'Québec',
-        addressRegion: 'QC',
-        postalCode: 'G1...',
-        addressCountry: 'CA'
+      'areaServed': {
+        '@type': 'Place',
+        'name': 'Québec et Charlevoix, QC, Canada'
       },
-      'telephone': '+1-418-XXX-XXXX',
       'geo': {
         '@type': 'GeoCoordinates',
         'latitude': 46.8139,
         'longitude': -71.2080
       },
-      'image': '/og-default.jpg',
+      'image': '/images/IMG_8539_compressed.jpg',
       'sameAs': [
-        'https://facebook.com/...',
-        'https://instagram.com/...'
+        'https://www.facebook.com/kiteaventureqc',
+        'https://www.instagram.com/kiteaventureqc/'
       ]
     }
   }
