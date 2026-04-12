@@ -15,6 +15,23 @@ const faqItems = computed(() => {
     content: rt(item.answer)
   }))
 })
+
+const rawFaqItems = tm('faq.items') as Array<{ question: string, answer: string }>
+useSchemaOrg([
+  {
+    '@type': 'FAQPage',
+    mainEntity: Array.isArray(rawFaqItems)
+      ? rawFaqItems.map(item => ({
+          '@type': 'Question',
+          name: rt(item.question),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: rt(item.answer)
+          }
+        }))
+      : []
+  }
+])
 </script>
 
 <template>
