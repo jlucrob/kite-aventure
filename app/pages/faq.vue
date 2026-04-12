@@ -20,13 +20,13 @@ const rawFaqItems = tm('faq.items') as Array<{ question: string, answer: string 
 useSchemaOrg([
   {
     '@type': 'FAQPage',
-    mainEntity: Array.isArray(rawFaqItems)
+    'mainEntity': Array.isArray(rawFaqItems)
       ? rawFaqItems.map(item => ({
           '@type': 'Question',
-          name: rt(item.question),
-          acceptedAnswer: {
+          'name': rt(item.question),
+          'acceptedAnswer': {
             '@type': 'Answer',
-            text: rt(item.answer)
+            'text': rt(item.answer)
           }
         }))
       : []
