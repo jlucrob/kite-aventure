@@ -36,7 +36,8 @@ export default defineNuxtConfig({
     url: 'https://kiteaventure.ca',
     name: 'Kite Aventure',
     description: 'École de kitesurf à Québec et Charlevoix. Cours pour débutants et avancés, voyages kite.',
-    defaultLocale: 'fr'
+    defaultLocale: 'fr',
+    trailingSlash: true
   },
 
   compatibilityDate: '2025-01-15',
@@ -67,6 +68,7 @@ export default defineNuxtConfig({
     langDir: '../i18n/locales',
     strategy: 'prefix_except_default',
     baseUrl: 'https://kiteaventure.ca',
+    trailingSlash: true,
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',
