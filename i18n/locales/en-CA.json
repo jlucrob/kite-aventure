@@ -117,7 +117,9 @@
         "label": "Sign the Waiver"
       },
       "step3": "Send an Interac transfer to: info{'@'}kiteaventure.ca",
-      "step4": "For more information, message us privately with your phone number so we can chat!"
+      "step4": "For more information, message us privately with your phone number so we can chat! {contactLink}",
+      "contactLinkText": "contact us",
+      "cta": "REGISTRATION"
     }
   },
   "trips": {

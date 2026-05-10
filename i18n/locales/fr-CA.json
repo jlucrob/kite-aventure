@@ -100,7 +100,7 @@
       "items": [
         "Être âgé de 12 ans ou plus",
         "Savoir nager et être en forme physique adéquate",
-        "Posséder votre wetsuit (épaisseur 4:3 mm recommandée, 3:2 mm peut faire pour les moins frileux) et vos « souliers d'eau » en néoprène (pas de semelle sous la chaussure, ou semelle très mince et souple - il faut pouvoir sentir la planche sous les pieds",
+        "Posséder votre wetsuit (épaisseur 4:3 mm recommandée, 3:2 mm peut faire pour les moins frileux) et vos « souliers d'eau » en néoprène (pas de semelle sous la chaussure, ou semelle très mince et souple - il faut pouvoir sentir la planche sous les pieds)",
         "Être en mesure de vous déplacer sur les lieux de pratique (région de Québec et L'Isle-aux-Coudres)",
         "Savoir que vous risquez d'entrer dans un cycle obsessionnel de plaisir et de passion (lire ici : regarder les prévisions de vent 5 fois par jour, ne parler que de kite avec vos amis, manquer des diners de famille parce qu'il vente, être entourés de passionné(e)s épris du même mal que vous, etc.)"
       ]
@@ -117,7 +117,9 @@
         "label": "Signer le Waiver"
       },
       "step3": "Faire un paiement Interac à l'adresse courriel : info{'@'}kiteaventure.ca",
-      "step4": "Pour plus d'information, nous écrire en privé en laissant votre numéro de téléphone pour qu'on discute !"
+      "step4": "Pour plus d'information, nous écrire en privé en laissant votre numéro de téléphone pour qu'on discute ! {contactLink}",
+      "contactLinkText": "Nous contacter",
+      "cta": "INSCRIPTION"
     }
   },
   "trips": {

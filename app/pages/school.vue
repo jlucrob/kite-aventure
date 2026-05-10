@@ -24,6 +24,8 @@ const conditionItems = computed(() => {
   if (!Array.isArray(raw)) return []
   return raw.map((item: string) => rt(item))
 })
+
+const registrationFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdRxaLviLR8R97EyBQiIJjdkPnMOdkhYejcVQ_T5aMfJ9-qSg/viewform'
 </script>
 
 <template>
@@ -144,12 +146,14 @@ const conditionItems = computed(() => {
         <div class="flex items-start gap-3">
           <span class="flex-shrink-0 w-7 h-7 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">1</span>
           <p class="text-muted pt-0.5">
-            <NuxtLink
-              to="#"
+            <a
+              :href="registrationFormUrl"
+              target="_blank"
+              rel="noopener noreferrer"
               class="text-primary underline"
             >
               {{ t('school.register.step1.label') }}
-            </NuxtLink>
+            </a>
           </p>
         </div>
         <div class="flex items-start gap-3">
@@ -172,20 +176,34 @@ const conditionItems = computed(() => {
         <div class="flex items-start gap-3">
           <span class="flex-shrink-0 w-7 h-7 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">4</span>
           <p class="text-muted pt-0.5">
-            {{ t('school.register.step4') }}
+            <i18n-t
+              keypath="school.register.step4"
+              tag="span"
+            >
+              <template #contactLink>
+                <NuxtLink
+                  :to="localePath('/contact')"
+                  class="underline hover:text-primary"
+                >
+                  {{ t('school.register.contactLinkText') }}
+                </NuxtLink>
+              </template>
+            </i18n-t>
           </p>
         </div>
       </div>
     </UPageSection>
 
-    <!-- Contact CTA -->
+    <!-- Registration CTA -->
     <UPageSection>
       <div class="flex justify-center">
         <UButton
-          :label="t('contactUs')"
-          :to="localePath('/contact')"
-          trailing-icon="i-lucide-arrow-right"
-          size="lg"
+          :label="t('school.register.cta')"
+          :to="registrationFormUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+          size="xl"
+          class="px-12 py-4 text-xl font-bold tracking-wider"
         />
       </div>
     </UPageSection>
