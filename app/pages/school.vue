@@ -159,12 +159,14 @@ const registrationFormUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSdRxaLviLR
         <div class="flex items-start gap-3">
           <span class="flex-shrink-0 w-7 h-7 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">2</span>
           <p class="text-muted pt-0.5">
-            <NuxtLink
-              to="#"
+            <a
+              href="/documents/waiver_risque_kite_aventure.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               class="text-primary underline"
             >
               {{ t('school.register.step2.label') }}
-            </NuxtLink>
+            </a>
           </p>
         </div>
         <div class="flex items-start gap-3">

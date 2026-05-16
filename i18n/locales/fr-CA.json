@@ -114,7 +114,7 @@
         "label": "Remplir le formulaire d'inscription"
       },
       "step2": {
-        "label": "Signer le Waiver"
+        "label": "Signer la décharge de responsabilité (waiver)"
       },
       "step3": "Faire un paiement Interac à l'adresse courriel : info{'@'}kiteaventure.ca",
       "step4": "Pour plus d'information, nous écrire en privé en laissant votre numéro de téléphone pour qu'on discute ! {contactLink}",
