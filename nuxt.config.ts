@@ -42,7 +42,10 @@ export default defineNuxtConfig({
 
   compatibilityDate: '2025-01-15',
   nitro: {
-    preset: 'static'
+    preset: 'static',
+    prerender: {
+      routes: ['/404.html']
+    }
   },
 
   eslint: {
@@ -61,19 +64,29 @@ export default defineNuxtConfig({
   // i18n config
   i18n: {
     locales: [
-      { code: 'fr', language: 'fr-CA', name: 'Français', file: 'fr-CA.json' },
-      { code: 'en', language: 'en-CA', name: 'English', file: 'en-CA.json' }
+      { code: 'fr', language: 'fr', name: 'Français', file: 'fr-CA.json' },
+      { code: 'en', language: 'en', name: 'English', file: 'en-CA.json' }
     ],
     defaultLocale: 'fr',
     langDir: '../i18n/locales',
     strategy: 'prefix_except_default',
     baseUrl: 'https://kiteaventure.ca',
     trailingSlash: true,
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      redirectOn: 'root',
-      alwaysRedirect: false
+    detectBrowserLanguage: false,
+    customRoutes: 'config',
+    pages: {
+      school: {
+        fr: '/ecole',
+        en: '/school'
+      },
+      team: {
+        fr: '/equipe',
+        en: '/team'
+      },
+      trips: {
+        fr: '/voyages',
+        en: '/trips'
+      }
     }
   },
 
@@ -93,7 +106,7 @@ export default defineNuxtConfig({
         'latitude': 46.8139,
         'longitude': -71.2080
       },
-      'image': '/images/IMG_8539_compressed.jpg',
+      'image': 'https://kiteaventure.ca/images/IMG_8539_compressed.jpg',
       'sameAs': [
         'https://www.facebook.com/kiteaventureqc',
         'https://www.instagram.com/kiteaventureqc/'

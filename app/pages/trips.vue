@@ -6,7 +6,7 @@ useSeoMeta({
   description: () => t('trips.seo.description'),
   ogTitle: () => t('trips.seo.title'),
   ogDescription: () => t('trips.seo.description'),
-  ogImage: '/images/IMG_8539_compressed.jpg',
+  ogImage: 'https://kiteaventure.ca/images/IMG_8539_compressed.jpg',
   ogType: 'website'
 })
 

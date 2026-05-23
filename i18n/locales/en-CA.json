@@ -10,6 +10,13 @@
   },
   "bookNow": "Book Now",
   "contactUs": "Contact Us",
+  "error": {
+    "404": {
+      "title": "Page not found",
+      "description": "Sorry, the page you're looking for doesn't exist or has been moved.",
+      "backHome": "Back to home"
+    }
+  },
   "home": {
     "seo": {
       "title": "Kitesurfing School in Quebec City & Charlevoix | Kite Aventure",
