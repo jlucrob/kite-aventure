@@ -2,9 +2,8 @@
   "nav": {
     "home": "Accueil",
     "team": "L'équipe",
-    "services": "Services",
-    "school": "École",
-    "trips": "Voyages",
+    "school": "Cours de kite",
+    "trips": "Voyage Brésil",
     "faq": "FAQ",
     "contact": "Contact"
   },
@@ -68,24 +67,6 @@
       }
     ]
   },
-  "services": {
-    "seo": {
-      "title": "Services de kitesurf — École et voyages | Kite Aventure",
-      "description": "Découvrez nos cours de kitesurf à Québec et nos voyages kite vers les meilleures destinations. Services adaptés à tous les niveaux."
-    },
-    "title": "Nos services",
-    "subtitle": "École de kite et voyages kitesurf",
-    "schoolCard": {
-      "title": "École de kitesurf",
-      "description": "Apprenez le kitesurf avec nos instructeurs certifiés. Cours pour débutants, intermédiaires et avancés à Québec.",
-      "link": "Découvrir l'école"
-    },
-    "tripsCard": {
-      "title": "Voyages kitesurf",
-      "description": "Partez en voyage kite vers les meilleures destinations. Encadrement professionnel et expériences inoubliables.",
-      "link": "Voir les voyages"
-    }
-  },
   "school": {
     "seo": {
       "title": "Cours de kitesurf à Québec et Charlevoix — Tarifs 2026 | Kite Aventure",
@@ -134,24 +115,9 @@
       "title": "Voyages kitesurf — Destinations de rêve | Kite Aventure",
       "description": "Partez en voyage kitesurf avec Kite Aventure. Destinations soleil, tout inclus, encadrement professionnel. Réservez votre prochain trip kite!"
     },
-    "title": "Voyages kitesurf",
+    "title": "Voyages de kitesurf au Brésil",
     "subtitle": "Explorez les meilleures destinations kite au monde",
     "intro": "Kite Aventure organise des voyages kitesurf vers les destinations les plus prisées au monde. Profitez d'un encadrement professionnel, de conditions idéales et d'expériences inoubliables.",
-    "destinations": {
-      "title": "Nos destinations",
-      "items": [
-        {
-          "name": "",
-          "description": "Restez à l'affût, plus d'informations à venir bientôt.",
-          "season": ""
-        },
-        {
-          "name": "",
-          "description": "Restez à l'affût, plus d'informations à venir bientôt.",
-          "season": ""
-        }
-      ]
-    },
     "included": {
       "title": "Ce qui est inclus",
       "items": [

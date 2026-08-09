@@ -2,9 +2,8 @@
   "nav": {
     "home": "Home",
     "team": "The Team",
-    "services": "Services",
-    "school": "School",
-    "trips": "Trips",
+    "school": "Kite Lessons",
+    "trips": "Brazil Trip",
     "faq": "FAQ",
     "contact": "Contact"
   },
@@ -68,24 +67,6 @@
       }
     ]
   },
-  "services": {
-    "seo": {
-      "title": "Kitesurfing Services — School and Trips | Kite Aventure",
-      "description": "Discover our kitesurfing lessons in Quebec City and our kite trips to the best destinations. Services for all levels."
-    },
-    "title": "Our Services",
-    "subtitle": "Kite school and kitesurfing trips",
-    "schoolCard": {
-      "title": "Kitesurfing School",
-      "description": "Learn kitesurfing with our certified instructors. Lessons for beginners, intermediate, and advanced riders in Quebec City.",
-      "link": "Discover the school"
-    },
-    "tripsCard": {
-      "title": "Kitesurfing Trips",
-      "description": "Travel to the best kite destinations. Professional guidance and unforgettable experiences.",
-      "link": "View trips"
-    }
-  },
   "school": {
     "seo": {
       "title": "Kitesurfing Lessons in Quebec City & Charlevoix — 2026 Pricing | Kite Aventure",
@@ -134,24 +115,9 @@
       "title": "Kitesurfing Trips — Dream Destinations | Kite Aventure",
       "description": "Go on a kitesurfing trip with Kite Aventure. Sunny destinations, all-inclusive, professional guidance. Book your next kite trip!"
     },
-    "title": "Kitesurfing Trips",
+    "title": "Kitesurfing Trips to Brazil",
     "subtitle": "Explore the best kite destinations in the world",
     "intro": "Kite Aventure organizes kitesurfing trips to the most sought-after destinations worldwide. Enjoy professional guidance, ideal conditions, and unforgettable experiences.",
-    "destinations": {
-      "title": "Our Destinations",
-      "items": [
-        {
-          "name": "",
-          "description": "Stay tuned, more information coming soon.",
-          "season": ""
-        },
-        {
-          "name": "",
-          "description": "Stay tuned, more information coming soon.",
-          "season": ""
-        }
-      ]
-    },
     "included": {
       "title": "What's Included",
       "items": [

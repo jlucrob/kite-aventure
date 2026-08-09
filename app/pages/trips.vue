@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { t, tm, rt } = useI18n()
+const { t } = useI18n()
 
 useSeoMeta({
   title: () => t('trips.seo.title'),
@@ -8,16 +8,6 @@ useSeoMeta({
   ogDescription: () => t('trips.seo.description'),
   ogImage: 'https://kiteaventure.ca/images/IMG_8539_compressed.jpg',
   ogType: 'website'
-})
-
-const destinations = computed(() => {
-  const raw = tm('trips.destinations.items') as Array<{ name: string, description: string, season: string }>
-  if (!Array.isArray(raw)) return []
-  return raw.map((d: { name: string, description: string, season: string }) => ({
-    name: rt(d.name),
-    description: rt(d.description),
-    season: rt(d.season)
-  }))
 })
 
 // const includedItems = computed(() => {
@@ -45,41 +35,6 @@ const destinations = computed(() => {
         <p class="text-lg text-muted">
           {{ t('trips.intro') }}
         </p>
-      </div>
-    </UPageSection>
-
-    <!-- Destinations -->
-    <UPageSection :title="t('trips.destinations.title')">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <UPageCard
-          v-for="(dest, index) in destinations"
-          :key="index"
-          :title="dest.name || undefined"
-          :description="dest.description"
-        >
-          <template #header>
-            <div
-              class="w-full h-48 bg-elevated flex items-center justify-center"
-            >
-              <UIcon
-                name="i-lucide-palmtree"
-                class="text-5xl text-primary"
-              />
-            </div>
-          </template>
-          <template
-            v-if="dest.season"
-            #footer
-          >
-            <UBadge
-              color="primary"
-              variant="subtle"
-              icon="i-lucide-calendar"
-            >
-              {{ dest.season }}
-            </UBadge>
-          </template>
-        </UPageCard>
       </div>
     </UPageSection>
 
