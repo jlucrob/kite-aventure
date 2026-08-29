@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { t } = useI18n()
+const { t, tm, rt } = useI18n()
 
 useSeoMeta({
   title: () => t('trips.seo.title'),
@@ -15,13 +15,34 @@ useSeoMeta({
 //   if (!Array.isArray(raw)) return []
 //   return raw.map((item: string) => rt(item))
 // })
+
+const itineraryPhases = ['phase1', 'phase2', 'phase3', 'phase4', 'phase5']
+const phaseLevels: Record<string, 'all' | 'advanced' | 'beginner' | undefined> = {
+  phase1: 'all',
+  phase2: 'advanced',
+  phase3: 'advanced',
+  phase5: 'beginner'
+}
+const phaseLevelColor: Record<'all' | 'advanced' | 'beginner', string> = {
+  all: 'text-success',
+  advanced: 'text-warning',
+  beginner: 'text-info'
+}
+const phasesWithPriceNote: Record<string, boolean> = {
+  phase1: true
+}
+
+function phaseItems(phase: string) {
+  const raw = tm(`trips.itinerary.${phase}.items`) as string[]
+  if (!Array.isArray(raw)) return []
+  return raw.map((item: string) => rt(item))
+}
 </script>
 
 <template>
   <div>
     <UPageHero
       :title="t('trips.title')"
-      :description="t('trips.subtitle')"
       :links="[
         /* { label: t('bookNow'), to: '#', target: '_blank', trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const } */
         // { label: t('contactUs'), to: localePath('/contact'), trailingIcon: 'i-lucide-arrow-right', size: 'xl' as const }
@@ -35,6 +56,61 @@ useSeoMeta({
         <p class="text-lg text-muted">
           {{ t('trips.intro') }}
         </p>
+      </div>
+    </UPageSection>
+
+    <!-- Itinerary -->
+    <UPageSection :title="t('trips.itinerary.title')">
+      <div class="max-w-3xl mx-auto space-y-12">
+        <div
+          v-for="phase in itineraryPhases"
+          :key="phase"
+        >
+          <h3 class="text-xl font-semibold">
+            {{ t(`trips.itinerary.${phase}.title`) }}
+          </h3>
+          <p class="text-primary font-medium mt-1">
+            {{ t(`trips.itinerary.${phase}.dates`) }}
+          </p>
+          <ul class="space-y-2 mt-3">
+            <li
+              v-for="(item, index) in phaseItems(phase)"
+              :key="index"
+              class="flex items-start gap-3"
+            >
+              <UIcon
+                name="i-lucide-circle"
+                class="text-muted shrink-0 mt-1.5 size-2"
+              />
+              <span class="text-muted text-justify">{{ item }}</span>
+            </li>
+            <li
+              v-if="phaseLevels[phase]"
+              class="flex items-start gap-3"
+            >
+              <UIcon
+                name="i-lucide-circle"
+                class="shrink-0 mt-1.5 size-2"
+                :class="phaseLevelColor[phaseLevels[phase]!]"
+              />
+              <span
+                class="font-medium"
+                :class="phaseLevelColor[phaseLevels[phase]!]"
+              >{{ t(`trips.itinerary.${phase}.level`) }}</span>
+            </li>
+            <li
+              v-if="phasesWithPriceNote[phase]"
+              class="flex items-start gap-3"
+            >
+              <UIcon
+                name="i-lucide-circle"
+                class="text-muted shrink-0 mt-1.5 size-2"
+              />
+              <span class="font-bold text-justify">{{ t(`trips.itinerary.${phase}.priceNote`) }}</span>
+            </li>
+          </ul>
+          <!-- Image and pricing to be added -->
+        </div>
       </div>
     </UPageSection>
 

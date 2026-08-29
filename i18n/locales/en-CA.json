@@ -115,9 +115,8 @@
       "title": "Kitesurfing Trips — Dream Destinations | Kite Aventure",
       "description": "Go on a kitesurfing trip with Kite Aventure. Sunny destinations, all-inclusive, professional guidance. Book your next kite trip!"
     },
-    "title": "Kitesurfing Trips to Brazil",
-    "subtitle": "Explore the best kite destinations in the world",
-    "intro": "Kite Aventure organizes kitesurfing trips to the most sought-after destinations worldwide. Enjoy professional guidance, ideal conditions, and unforgettable experiences.",
+    "title": "Kitesurfing Trips to Brazil 2026",
+    "intro": "Join us on our kitesurfing adventures in Brazil! You can take part in one or several legs of the trip, depending on your availability and kite level.",
     "included": {
       "title": "What's Included",
       "items": [
@@ -127,6 +126,53 @@
         "Access to the best spots",
         "Complementary activities"
       ]
+    },
+    "itinerary": {
+      "title": "Itinerary",
+      "phase1": {
+        "title": "Guajiru — 6 Days of Kiting",
+        "dates": "November 2–8, 2026",
+        "level": "All levels welcome",
+        "items": [
+          "Six days of kitesurfing in Guajiru, from November 3 to November 8",
+          "Ocean sessions, downwinds, and lagoon sessions",
+          "What's included: accommodation, breakfast and lunch, transportation between kite spots once you're in Guajiru, coaching for all levels, jump and big air coaching",
+          "What's not included: flights to Fortaleza, transportation between Fortaleza and Guajiru, dinners, kite equipment"
+        ],
+        "priceNote": "Cost for single occupancy: $1,600. Cost for double occupancy (2 people per room): $950"
+      },
+      "phase2": {
+        "title": "Downwind #1 — Guajiru to Prea",
+        "dates": "November 9–15, 2026",
+        "level": "Advanced level required",
+        "items": [
+          "Downwind adventure from Guajiru to Prea",
+          "Jump and big air coaching included"
+        ]
+      },
+      "phase3": {
+        "title": "Downwind #2 — Prea to Barra Grande",
+        "dates": "November 16–23, 2026 (Monday to Monday)",
+        "level": "Advanced level required",
+        "items": [
+          "Second downwind trip, from Prea to Barra Grande"
+        ]
+      },
+      "phase4": {
+        "title": "Transport to Fortaleza & Pontal de Maceió",
+        "dates": "November 24, 2026",
+        "items": [
+          "Organized transport from Barra Grande to Fortaleza, continuing on to Pontal de Maceió"
+        ]
+      },
+      "phase5": {
+        "title": "Pontal de Maceió",
+        "dates": "November 26 – December 6, 2026",
+        "level": "For beginner and intermediate riders",
+        "items": [
+          "Time in Pontal de Maceió to wrap up the trip"
+        ]
+      }
     }
   },
   "contact": {
