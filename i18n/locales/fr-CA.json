@@ -130,8 +130,8 @@
     "itinerary": {
       "title": "Itinéraire",
       "phase1": {
-        "title": "Guajiru — 6 jours de kite",
-        "dates": "2 au 8 novembre 2026",
+        "title": "Guajiru",
+        "dates": "3 au 8 novembre 2026 (6 jours)",
         "level": "Tous niveaux acceptés",
         "items": [
           "Six jours de kitesurf à Guajiru, du 3 au 8 novembre",
@@ -139,24 +139,28 @@
           "Ce qui est inclus: Logement, déjeuner et diner, transports entre les différents spots de kites une fois que vous êtes sur place à Guajiru, coaching pour tous les niveaux, coaching de saut et big air",
           "Ce qui n'est pas inclus: Vols pour Fortaleza, transport entre Fortaleza et Guajiru, les soupers, l'équipement de kite"
         ],
-        "priceNote": "Coût en occupation simple 1 600 $. Coût en occupation double (2 personnes par chambre) 950 $"
+        "priceNote": "Coût par personne: Occupation simple 1 600 $. Occupation double (2 personnes par chambre) 950 $"
       },
       "phase2": {
-        "title": "Downwind #1 — Guajiru à Prea",
-        "dates": "9 au 15 novembre 2026",
+        "title": "Downwind #1 - Guajiru à Prea",
+        "dates": "9 au 15 novembre 2026 (7 jours)",
         "level": "Niveau avancé requis",
         "items": [
           "Downwind de Guajiru à Prea",
-          "Coaching de saut et de big air inclus"
-        ]
+          "Coaching de saut et de big air inclus",
+          "Ce qui est inclus: Logement aux différents arrêts durant le downwind, déjeuner et collations/snacks durant le downwind, transports de votre equipement par voiture durant le downwind",
+          "Ce qui n'est pas inclus: Vols pour Fortaleza, transport entre Fortaleza et Guajiru, les soupers, l'équipement de kite"
+        ],
+        "priceNote": "Coût par personne: Occupation simple 3 000 $. Occupation double (2 personnes par chambre) 1700 $"
       },
       "phase3": {
-        "title": "Downwind #2 — Prea à Barra Grande",
-        "dates": "16 au 23 novembre 2026 (lundi à lundi)",
+        "title": "Downwind #2 - Prea à Barra Grande",
+        "dates": "16 au 23 novembre 2026 (8 jours)",
         "level": "Niveau avancé requis",
         "items": [
-          "Deuxième downwind, de Prea à Barra Grande"
-        ]
+          "Downwind de Prea à Barra Grande"
+        ],
+        "priceNote": "Coût par personne: Occupation simple 3 400 $. Occupation double (2 personnes par chambre) 1950 $"
       },
       "phase4": {
         "title": "Transport vers Fortaleza et Pontal de Maceió",
@@ -167,7 +171,7 @@
       },
       "phase5": {
         "title": "Pontal de Maceió",
-        "dates": "26 novembre au 6 décembre 2026",
+        "dates": "26 novembre au 9 décembre 2026 (2 semaines)",
         "level": "Pour riders débutants et intermédiaires",
         "items": [
           "Séjour à Pontal de Maceió pour terminer le voyage"

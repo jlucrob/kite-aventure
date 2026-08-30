@@ -29,7 +29,9 @@ const phaseLevelColor: Record<'all' | 'advanced' | 'beginner', string> = {
   beginner: 'text-info'
 }
 const phasesWithPriceNote: Record<string, boolean> = {
-  phase1: true
+  phase1: true,
+  phase2: true,
+  phase3: true
 }
 
 function phaseItems(phase: string) {

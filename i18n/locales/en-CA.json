@@ -130,8 +130,8 @@
     "itinerary": {
       "title": "Itinerary",
       "phase1": {
-        "title": "Guajiru — 6 Days of Kiting",
-        "dates": "November 2–8, 2026",
+        "title": "Guajiru",
+        "dates": "November 3–8, 2026 (6 days)",
         "level": "All levels welcome",
         "items": [
           "Six days of kitesurfing in Guajiru, from November 3 to November 8",
@@ -139,24 +139,28 @@
           "What's included: accommodation, breakfast and lunch, transportation between kite spots once you're in Guajiru, coaching for all levels, jump and big air coaching",
           "What's not included: flights to Fortaleza, transportation between Fortaleza and Guajiru, dinners, kite equipment"
         ],
-        "priceNote": "Cost for single occupancy: $1,600. Cost for double occupancy (2 people per room): $950"
+        "priceNote": "Cost per person: Single occupancy $1,600. Double occupancy (2 people per room) $950"
       },
       "phase2": {
-        "title": "Downwind #1 — Guajiru to Prea",
-        "dates": "November 9–15, 2026",
+        "title": "Downwind #1 - Guajiru to Prea",
+        "dates": "November 9–15, 2026 (7 days)",
         "level": "Advanced level required",
         "items": [
           "Downwind adventure from Guajiru to Prea",
-          "Jump and big air coaching included"
-        ]
+          "Jump and big air coaching included",
+          "What's included: accommodation at the different stops during the downwind, breakfast and snacks during the downwind, transportation of your gear by car during the downwind",
+          "What's not included: flights to Fortaleza, transportation between Fortaleza and Guajiru, dinners, kite equipment"
+        ],
+        "priceNote": "Cost per person: Single occupancy $3,000. Double occupancy (2 people per room) $1,700"
       },
       "phase3": {
-        "title": "Downwind #2 — Prea to Barra Grande",
-        "dates": "November 16–23, 2026 (Monday to Monday)",
+        "title": "Downwind #2 - Prea to Barra Grande",
+        "dates": "November 16–23, 2026 (8 days)",
         "level": "Advanced level required",
         "items": [
           "Second downwind trip, from Prea to Barra Grande"
-        ]
+        ],
+        "priceNote": "Cost per person: Single occupancy $3,400. Double occupancy (2 people per room) $1,950"
       },
       "phase4": {
         "title": "Transport to Fortaleza & Pontal de Maceió",
@@ -167,7 +171,7 @@
       },
       "phase5": {
         "title": "Pontal de Maceió",
-        "dates": "November 26 – December 6, 2026",
+        "dates": "November 26 – December 9, 2026 (2 weeks)",
         "level": "For beginner and intermediate riders",
         "items": [
           "Time in Pontal de Maceió to wrap up the trip"
