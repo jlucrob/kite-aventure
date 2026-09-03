@@ -16,7 +16,7 @@ useSeoMeta({
 //   return raw.map((item: string) => rt(item))
 // })
 
-const itineraryPhases = ['phase1', 'phase2', 'phase3', 'phase4', 'phase5']
+const itineraryPhases = ['phase1', 'phase2', 'phase3', 'phase5']
 const phaseLevels: Record<string, 'all' | 'advanced' | 'beginner' | undefined> = {
   phase1: 'all',
   phase2: 'advanced',
@@ -31,7 +31,8 @@ const phaseLevelColor: Record<'all' | 'advanced' | 'beginner', string> = {
 const phasesWithPriceNote: Record<string, boolean> = {
   phase1: true,
   phase2: true,
-  phase3: true
+  phase3: true,
+  phase5: true
 }
 
 function phaseItems(phase: string) {
@@ -108,7 +109,11 @@ function phaseItems(phase: string) {
                 name="i-lucide-circle"
                 class="text-muted shrink-0 mt-1.5 size-2"
               />
-              <span class="font-bold text-justify">{{ t(`trips.itinerary.${phase}.priceNote`) }}</span>
+              <div class="font-bold">
+                <p>{{ t(`trips.itinerary.${phase}.priceNote.label`) }}</p>
+                <p>{{ t(`trips.itinerary.${phase}.priceNote.single`) }}</p>
+                <p>{{ t(`trips.itinerary.${phase}.priceNote.double`) }}</p>
+              </div>
             </li>
           </ul>
           <!-- Image and pricing to be added -->

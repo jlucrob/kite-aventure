@@ -139,7 +139,11 @@
           "What's included: accommodation, breakfast and lunch, transportation between kite spots once you're in Guajiru, coaching for all levels, jump and big air coaching",
           "What's not included: flights to Fortaleza, transportation between Fortaleza and Guajiru, dinners, kite equipment"
         ],
-        "priceNote": "Cost per person: Single occupancy $1,600. Double occupancy (2 people per room) $950"
+        "priceNote": {
+          "label": "Cost per person:",
+          "single": "Single occupancy $1,600",
+          "double": "Double occupancy (2 people per room) $950"
+        }
       },
       "phase2": {
         "title": "Downwind #1 - Guajiru to Prea",
@@ -151,31 +155,42 @@
           "What's included: accommodation at the different stops during the downwind, breakfast and snacks during the downwind, transportation of your gear by car during the downwind",
           "What's not included: flights to Fortaleza, transportation between Fortaleza and Guajiru, dinners, kite equipment"
         ],
-        "priceNote": "Cost per person: Single occupancy $3,000. Double occupancy (2 people per room) $1,700"
+        "priceNote": {
+          "label": "Cost per person:",
+          "single": "Single occupancy $3,000",
+          "double": "Double occupancy (2 people per room) $1,700"
+        }
       },
       "phase3": {
         "title": "Downwind #2 - Prea to Barra Grande",
         "dates": "November 16–23, 2026 (8 days)",
         "level": "Advanced level required",
         "items": [
-          "Second downwind trip, from Prea to Barra Grande"
+          "Second downwind trip, from Prea to Barra Grande",
+          "What's included: accommodation at the different stops during the downwind, breakfast and snacks during the downwind, transportation of your gear by car during the downwind",
+          "What's not included: flights to Fortaleza, transportation between Fortaleza and Prea, dinners, kite equipment"
         ],
-        "priceNote": "Cost per person: Single occupancy $3,400. Double occupancy (2 people per room) $1,950"
-      },
-      "phase4": {
-        "title": "Transport to Fortaleza & Pontal de Maceió",
-        "dates": "November 24, 2026",
-        "items": [
-          "Organized transport from Barra Grande to Fortaleza, continuing on to Pontal de Maceió"
-        ]
+        "priceNote": {
+          "label": "Cost per person:",
+          "single": "Single occupancy $3,400",
+          "double": "Double occupancy (2 people per room) $1,950"
+        }
       },
       "phase5": {
         "title": "Pontal de Maceió",
         "dates": "November 26 – December 9, 2026 (2 weeks)",
         "level": "For beginner and intermediate riders",
         "items": [
-          "Time in Pontal de Maceió to wrap up the trip"
-        ]
+          "Time in Pontal de Maceió to wrap up the trip",
+          "Option to take lessons in French, get coaching, and/or rent equipment at attractive rates",
+          "What's included: on-site accommodation for 2 weeks, breakfast and lunch",
+          "What's not included: flights to Fortaleza, transportation to Pontal de Maceió, dinners, kite equipment"
+        ],
+        "priceNote": {
+          "label": "Cost per person:",
+          "single": "Single occupancy $3,600",
+          "double": "Double occupancy (2 people per room) $2,000"
+        }
       }
     }
   },
