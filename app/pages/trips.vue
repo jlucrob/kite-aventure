@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t, tm, rt } = useI18n()
+const localePath = useLocalePath()
 
 useSeoMeta({
   title: () => t('trips.seo.title'),
@@ -79,6 +80,12 @@ function phaseItems(phase: string) {
         <p class="text-lg text-muted">
           {{ t('trips.intro') }}
         </p>
+        <UButton
+          :label="t('trips.bookCta')"
+          :to="localePath('/contact')"
+          size="xl"
+          class="mt-6"
+        />
       </div>
     </UPageSection>
 
@@ -163,6 +170,13 @@ function phaseItems(phase: string) {
         alt=""
         class="w-full max-w-4xl mx-auto rounded-lg"
       >
+      <div class="text-center mt-6">
+        <UButton
+          :label="t('trips.bookCta')"
+          :to="localePath('/contact')"
+          size="xl"
+        />
+      </div>
     </UPageSection>
 
     <!-- What's Included -->
