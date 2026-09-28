@@ -11,7 +11,7 @@ useSeoMeta({
 })
 
 const memberImages = [
-  { src: '/images/JL_et_SL_compressed.png', position: 'object-top' },
+  { src: '/images/simon_berthier_small.jpg', position: 'object-top' },
   { src: '/images/DSC06158_compressed.jpg', position: 'object-center' },
   { src: '/images/Benoit.JPG', position: 'object-top' }
 ]
